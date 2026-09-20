@@ -1,0 +1,17 @@
+{
+  "evidence": "frozen_confirmation",
+  "pairs_path": "data/confirmation/runtime_pairs.json",
+  "model": {
+    "id": "Qwen/Qwen3-4B-Instruct-2507",
+    "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+    "label": "qwen3_4b"
+  },
+  "conditions": ["no_skill", "binding_only", "matched_near", "matched_far", "lure_near", "lure_far"],
+  "max_steps": 100,
+  "max_new_tokens": 24,
+  "history_turns": 12,
+  "search_width": 5,
+  "causal_control": "binding_only",
+  "seed": 20260907,
+  "output_dir": "results/confirmation/qwen3_4b"
+}

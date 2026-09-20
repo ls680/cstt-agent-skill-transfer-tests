@@ -1,0 +1,126 @@
+{
+  "status": "pass",
+  "design": {
+    "targets": 60,
+    "models": [
+      "qwen3_4b",
+      "phi4_mini",
+      "mistral7b_v03"
+    ],
+    "target_model_blocks": 180,
+    "episodes": 1080,
+    "conditions": [
+      "no_skill",
+      "binding_only",
+      "matched_near",
+      "matched_far",
+      "lure_near",
+      "lure_far"
+    ]
+  },
+  "summary": {
+    "no_skill": {
+      "episodes": 180,
+      "successes": 15,
+      "success_rate": 0.08333333333333333,
+      "mean_steps": 94.08333333333333,
+      "input_tokens": 13947884,
+      "output_tokens": 127358
+    },
+    "binding_only": {
+      "episodes": 180,
+      "successes": 26,
+      "success_rate": 0.14444444444444443,
+      "mean_steps": 89.15,
+      "input_tokens": 9342268,
+      "output_tokens": 114020
+    },
+    "matched_near": {
+      "episodes": 180,
+      "successes": 176,
+      "success_rate": 0.9777777777777777,
+      "mean_steps": 15.072222222222223,
+      "input_tokens": 1841793,
+      "output_tokens": 19089
+    },
+    "matched_far": {
+      "episodes": 180,
+      "successes": 176,
+      "success_rate": 0.9777777777777777,
+      "mean_steps": 15.088888888888889,
+      "input_tokens": 1844252,
+      "output_tokens": 19110
+    },
+    "lure_near": {
+      "episodes": 180,
+      "successes": 18,
+      "success_rate": 0.1,
+      "mean_steps": 10.022222222222222,
+      "input_tokens": 1282152,
+      "output_tokens": 12672
+    },
+    "lure_far": {
+      "episodes": 180,
+      "successes": 0,
+      "success_rate": 0.0,
+      "mean_steps": 35.81666666666667,
+      "input_tokens": 4872531,
+      "output_tokens": 45459
+    }
+  },
+  "primary": {
+    "comparison": "matched_far_minus_lure_near",
+    "effect": 0.8777777777777778,
+    "bootstrap_95ci": [
+      0.8277777777777777,
+      0.9333333333333333
+    ],
+    "family_macro_effect": 0.8771929824561403,
+    "family_macro_bootstrap_95ci": [
+      0.827485380116959,
+      0.9327485380116958
+    ],
+    "task_clustered_randomization_p_one_sided": 9.99999000001e-07,
+    "paired_mcnemar_p_one_sided": 2.7369110631344083e-48,
+    "matched_only_successes": 158,
+    "lure_only_successes": 0,
+    "by_model": {
+      "qwen3_4b": 0.8833333333333333,
+      "phi4_mini": 0.8833333333333333,
+      "mistral7b_v03": 0.8666666666666667
+    },
+    "by_family": {
+      "pick_and_place_simple": 0.3333333333333333,
+      "pick_clean_then_place_in_recep": 1.0,
+      "pick_heat_then_place_in_recep": 1.0,
+      "pick_cool_then_place_in_recep": 1.0,
+      "look_at_obj_in_light": 1.0,
+      "pick_two_obj_and_place": 0.9298245614035088
+    }
+  },
+  "causal_vs_binding_only": {
+    "helpful": 150,
+    "harmful": 0,
+    "net_effect": 0.8333333333333334,
+    "harm_rate": 0.0
+  },
+  "audit_status": {
+    "qwen3_4b": "pass",
+    "phi4_mini": "pass",
+    "mistral7b_v03": "pass"
+  },
+  "gates": {
+    "complete_1080_episodes": true,
+    "all_audits_pass": true,
+    "primary_gain_at_least_0_10": true,
+    "bootstrap_95ci_positive": true,
+    "family_macro_gain_at_least_0_10": true,
+    "family_macro_bootstrap_95ci_positive": true,
+    "randomization_p_at_most_0_01": true,
+    "net_causal_effect_at_least_0_05": true,
+    "harm_rate_at_most_0_08": true,
+    "positive_in_two_models": true,
+    "positive_in_four_families": true
+  },
+  "all_gates_pass": true
+}

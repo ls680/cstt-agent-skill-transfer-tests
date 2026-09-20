@@ -1,0 +1,33 @@
+{
+  "config": {
+    "evidence": "frozen_confirmation",
+    "pairs_path": "data/confirmation/runtime_pairs.json",
+    "model": {
+      "id": "mistralai/Mistral-7B-Instruct-v0.3",
+      "revision": "c170c708c41dac9275d15a8fff4eca08d52bab71",
+      "label": "mistral7b_v03"
+    },
+    "conditions": [
+      "no_skill",
+      "binding_only",
+      "matched_near",
+      "matched_far",
+      "lure_near",
+      "lure_far"
+    ],
+    "max_steps": 100,
+    "max_new_tokens": 24,
+    "history_turns": 12,
+    "search_width": 5,
+    "causal_control": "binding_only",
+    "seed": 20260907,
+    "output_dir": "results/confirmation/mistral7b_v03"
+  },
+  "config_sha256": "9499da972459c2393497fa035b6375eb5f54d41b458115b6b1f8fead0c3627d8",
+  "pairs_sha256": "67ab887b21f1243c1b313acf259f30b33921a4d13a1f9b14b9520be7d8b50c2f",
+  "runner_sha256": "f3c2649cb2a00a12f78e4871b4f88566d2c3ee20c0bc49768e5e90317e15eb1f",
+  "executor_sha256": "90791dc3363a41e1c977c5cf7f27cf829f117182ac996833c1ed54006ae1317f",
+  "pairs_code_sha256": "40d76506944edc205104ea2d3dd50d6a3056030fd4518ad375daedff3a390472",
+  "paper1_interactive_sha256": "e00ff3de13949d67de4180a243e5bfe572ec431cbc0c47ee17dc3f7e36d15a23",
+  "paper1_environments_sha256": "bf31cb3078dee54c7c96c2425a44103c846b02d127b37323fc90bac91b7706a4"
+}

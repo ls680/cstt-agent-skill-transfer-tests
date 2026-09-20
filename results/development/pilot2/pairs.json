@@ -1,0 +1,500 @@
+{
+  "evidence": "exposed_development_only_revision2",
+  "config_sha256": "da4c09f10328543703867730b4cf742c93e4e4855df38912bfdca3573fb21c15",
+  "manifest_sha256": "9a17e166c91ce55c4b7a01ea31f0fba9347819227e634ac2b226d675ab8192b8",
+  "inventory_sha256": "3e072dbe15b6dbeccb87a9369bb01faab565afd0228ee96bea0898c3f77295ae",
+  "source_count": 3553,
+  "target_count": 6,
+  "records": [
+    {
+      "target": {
+        "task_id": "json_2.1.1/valid_seen/pick_and_place_simple-RemoteControl-None-ArmChair-230/trial_T20190909_021000_274398/game.tw-pddl",
+        "family": "pick_and_place_simple",
+        "gamefile": "json_2.1.1/valid_seen/pick_and_place_simple-RemoteControl-None-ArmChair-230/trial_T20190909_021000_274398/game.tw-pddl",
+        "task_description": "Place a remote control on a chair.",
+        "actions": [
+          "GotoLocation(coffeetable)",
+          "PickupObject(remotecontrol)",
+          "GotoLocation(armchair)",
+          "PutObject(remotecontrol, armchair)",
+          "NoOp()"
+        ],
+        "evidence_source": "official ALFRED high-level successful plan",
+        "trajectory_sha256": "ab846b4543cb8480ba7d0a9d4c09a003515ef225dd3139da6eaf714a0f86ff3d",
+        "reconstructed_objective": "move remote control to arm chair"
+      },
+      "sources": {
+        "matched_far": {
+          "lexical_similarity": 0.0,
+          "task_id": "json_2.1.1/train/pick_and_place_simple-AlarmClock-None-Desk-307/trial_T20190907_072303_146844/game.tw-pddl",
+          "family": "pick_and_place_simple",
+          "task_description": "move the alarm clock from one desk to another one",
+          "operator_signature": [
+            "GotoLocation",
+            "PickupObject",
+            "GotoLocation",
+            "PutObject",
+            "NoOp"
+          ],
+          "skill_text": "Verified role-normalized procedure\nSource witness operator signature: GotoLocation -> PickupObject -> GotoLocation -> PutObject -> NoOp\n\nTransfer rules:\n- Bind every subject, count, device, and destination from the CURRENT objective; source entity names are intentionally absent.\n- During search, systematically inspect new locations or containers. Do not loop between already inspected locations.\n- Never acquire or transform an object whose type does not match the CURRENT target.\n- Follow actual feedback and choose only a currently admissible command.\n\nProcedure:\n1. Locate and acquire the object named by the CURRENT objective.\n2. Navigate to the CURRENT objective's destination.\n3. Place the held target at that destination and stop after confirmation."
+        },
+        "matched_near": {
+          "lexical_similarity": 1.0,
+          "task_id": "json_2.1.1/train/pick_and_place_simple-RemoteControl-None-ArmChair-227/trial_T20190909_101528_704500/game.tw-pddl",
+          "family": "pick_and_place_simple",
+          "task_description": "Place a remote control on a chair.",
+          "operator_signature": [
+            "GotoLocation",
+            "PickupObject",
+            "GotoLocation",
+            "PutObject",
+            "NoOp"
+          ],
+          "skill_text": "Verified role-normalized procedure\nSource witness operator signature: GotoLocation -> PickupObject -> GotoLocation -> PutObject -> NoOp\n\nTransfer rules:\n- Bind every subject, count, device, and destination from the CURRENT objective; source entity names are intentionally absent.\n- During search, systematically inspect new locations or containers. Do not loop between already inspected locations.\n- Never acquire or transform an object whose type does not match the CURRENT target.\n- Follow actual feedback and choose only a currently admissible command.\n\nProcedure:\n1. Locate and acquire the object named by the CURRENT objective.\n2. Navigate to the CURRENT objective's destination.\n3. Place the held target at that destination and stop after confirmation."
+        },
+        "lure_far": {
+          "lexical_similarity": 0.0,
+          "task_id": "json_2.1.1/train/look_at_obj_in_light-AlarmClock-None-DeskLamp-318/trial_T20190906_180754_637797/game.tw-pddl",
+          "family": "look_at_obj_in_light",
+          "task_description": "View the black and brown object in the light. ",
+          "operator_signature": [
+            "GotoLocation",
+            "PickupObject",
+            "GotoLocation",
+            "ToggleObject",
+            "NoOp"
+          ],
+          "skill_text": "Verified role-normalized procedure\nSource witness operator signature: GotoLocation -> PickupObject -> GotoLocation -> ToggleObject -> NoOp\n\nTransfer rules:\n- Bind every subject, count, device, and destination from the CURRENT objective; source entity names are intentionally absent.\n- During search, systematically inspect new locations or containers. Do not loop between already inspected locations.\n- Never acquire or transform an object whose type does not match the CURRENT target.\n- Follow actual feedback and choose only a currently admissible command.\n\nProcedure:\n1. Locate and acquire the object named by the CURRENT objective.\n2. Navigate to the objective-relevant lamp and use or activate it while retaining the target.\n3. Stop when environment feedback confirms that the target has been examined under the light."
+        },
+        "lure_near": {
+          "lexical_similarity": 0.7071067811865476,
+          "task_id": "json_2.1.1/train/pick_two_obj_and_place-RemoteControl-None-ArmChair-209/trial_T20190911_073110_194622/game.tw-pddl",
+          "family": "pick_two_obj_and_place",
+          "task_description": "Put two remote control devices on a chair.",
+          "operator_signature": [
+            "GotoLocation",
+            "PickupObject",
+            "GotoLocation",
+            "PutObject",
+            "GotoLocation",
+            "PickupObject",
+            "GotoLocation",
+            "PutObject",
+            "NoOp"
+          ],
+          "skill_text": "Verified role-normalized procedure\nSource witness operator signature: GotoLocation -> PickupObject -> GotoLocation -> PutObject -> GotoLocation -> PickupObject -> GotoLocation -> PutObject -> NoOp\n\nTransfer rules:\n- Bind every subject, count, device, and destination from the CURRENT objective; source entity names are intentionally absent.\n- During search, systematically inspect new locations or containers. Do not loop between already inspected locations.\n- Never acquire or transform an object whose type does not match the CURRENT target.\n- Follow actual feedback and choose only a currently admissible command.\n\nProcedure:\n1. Locate and acquire one object matching the CURRENT objective.\n2. Navigate to the CURRENT destination and place that object there.\n3. Locate a different object of the same requested type.\n4. Acquire it, return to the CURRENT destination, and place it there."
+        }
+      }
+    },
+    {
+      "target": {
+        "task_id": "json_2.1.1/valid_seen/pick_clean_then_place_in_recep-Mug-None-CoffeeMachine-26/trial_T20190907_233056_022802/game.tw-pddl",
+        "family": "pick_clean_then_place_in_recep",
+        "gamefile": "json_2.1.1/valid_seen/pick_clean_then_place_in_recep-Mug-None-CoffeeMachine-26/trial_T20190907_233056_022802/game.tw-pddl",
+        "task_description": "Put a clean mug under the coffee maker.",
+        "actions": [
+          "GotoLocation(countertop)",
+          "PickupObject(mug)",
+          "GotoLocation(sinkbasin)",
+          "CleanObject(mug)",
+          "GotoLocation(coffeemachine)",
+          "PutObject(mug, coffeemachine)",
+          "NoOp()"
+        ],
+        "evidence_source": "official ALFRED high-level successful plan",
+        "trajectory_sha256": "95d5c2e5a0f628f4e0dc7ad07499fe7a24762509215443f37f4adce485452c2b",
+        "reconstructed_objective": "put a clean mug in coffee machine"
+      },
+      "sources": {
+        "matched_far": {
+          "lexical_similarity": 0.0,
+          "task_id": "json_2.1.1/train/pick_clean_then_place_in_recep-Apple-None-Microwave-8/trial_T20190909_113149_458865/game.tw-pddl",
+          "family": "pick_clean_then_place_in_recep",
+          "task_description": "rinse and heat an apple",
+          "operator_signature": [
+            "GotoLocation",
+            "PickupObject",
+            "GotoLocation",
+            "CleanObject",
+            "GotoLocation",
+            "PutObject",
+            "NoOp"
+          ],
+          "skill_text": "Verified role-normalized procedure\nSource witness operator signature: GotoLocation -> PickupObject -> GotoLocation -> CleanObject -> GotoLocation -> PutObject -> NoOp\n\nTransfer rules:\n- Bind every subject, count, device, and destination from the CURRENT objective; source entity names are intentionally absent.\n- During search, systematically inspect new locations or containers. Do not loop between already inspected locations.\n- Never acquire or transform an object whose type does not match the CURRENT target.\n- Follow actual feedback and choose only a currently admissible command.\n\nProcedure:\n1. Locate and acquire the object named by the CURRENT objective.\n2. Navigate to an available sink basin and clean that object.\n3. Only after cleaning succeeds, navigate to the CURRENT destination and place it there."
+        },
+        "matched_near": {
+          "lexical_similarity": 1.0,
+          "task_id": "json_2.1.1/train/pick_clean_then_place_in_recep-Mug-None-CoffeeMachine-15/trial_T20190909_111443_363349/game.tw-pddl",
+          "family": "pick_clean_then_place_in_recep",
+          "task_description": "Put a clean mug under the coffee maker.",
+          "operator_signature": [
+            "GotoLocation",
+            "PickupObject",
+            "GotoLocation",
+            "CleanObject",
+            "GotoLocation",
+            "PutObject"
+          ],
+          "skill_text": "Verified role-normalized procedure\nSource witness operator signature: GotoLocation -> PickupObject -> GotoLocation -> CleanObject -> GotoLocation -> PutObject\n\nTransfer rules:\n- Bind every subject, count, device, and destination from the CURRENT objective; source entity names are intentionally absent.\n- During search, systematically inspect new locations or containers. Do not loop between already inspected locations.\n- Never acquire or transform an object whose type does not match the CURRENT target.\n- Follow actual feedback and choose only a currently admissible command.\n\nProcedure:\n1. Locate and acquire the object named by the CURRENT objective.\n2. Navigate to an available sink basin and clean that object.\n3. Only after cleaning succeeds, navigate to the CURRENT destination and place it there."
+        },
+        "lure_far": {
+          "lexical_similarity": 0.0,
+          "task_id": "json_2.1.1/train/look_at_obj_in_light-AlarmClock-None-DeskLamp-324/trial_T20190909_140235_795214/game.tw-pddl",
+          "family": "look_at_obj_in_light",
+          "task_description": "turn on light on bureau top while holding clock",
+          "operator_signature": [
+            "GotoLocation",
+            "PickupObject",
+            "GotoLocation",
+            "ToggleObject",
+            "NoOp"
+          ],
+          "skill_text": "Verified role-normalized procedure\nSource witness operator signature: GotoLocation -> PickupObject -> GotoLocation -> ToggleObject -> NoOp\n\nTransfer rules:\n- Bind every subject, count, device, and destination from the CURRENT objective; source entity names are intentionally absent.\n- During search, systematically inspect new locations or containers. Do not loop between already inspected locations.\n- Never acquire or transform an object whose type does not match the CURRENT target.\n- Follow actual feedback and choose only a currently admissible command.\n\nProcedure:\n1. Locate and acquire the object named by the CURRENT objective.\n2. Navigate to the objective-relevant lamp and use or activate it while retaining the target.\n3. Stop when environment feedback confirms that the target has been examined under the light."
+        },
+        "lure_near": {
+          "lexical_similarity": 0.875,
+          "task_id": "json_2.1.1/train/pick_heat_then_place_in_recep-Mug-None-CoffeeMachine-24/trial_T20190907_144840_098027/game.tw-pddl",
+          "family": "pick_heat_then_place_in_recep",
+          "task_description": "Put a warm mug under the coffee maker.",
+          "operator_signature": [
+            "GotoLocation",
+            "PickupObject",
+            "GotoLocation",
+            "HeatObject",
+            "GotoLocation",
+            "PutObject",
+            "NoOp"
+          ],
+          "skill_text": "Verified role-normalized procedure\nSource witness operator signature: GotoLocation -> PickupObject -> GotoLocation -> HeatObject -> GotoLocation -> PutObject -> NoOp\n\nTransfer rules:\n- Bind every subject, count, device, and destination from the CURRENT objective; source entity names are intentionally absent.\n- During search, systematically inspect new locations or containers. Do not loop between already inspected locations.\n- Never acquire or transform an object whose type does not match the CURRENT target.\n- Follow actual feedback and choose only a currently admissible command.\n\nProcedure:\n1. Locate and acquire the object named by the CURRENT objective.\n2. Navigate to an available microwave, open it if needed, and heat that object.\n3. Only after heating succeeds, navigate to the CURRENT destination and place it there."
+        }
+      }
+    },
+    {
+      "target": {
+        "task_id": "json_2.1.1/valid_seen/pick_heat_then_place_in_recep-Apple-None-DiningTable-26/trial_T20190907_060234_011675/game.tw-pddl",
+        "family": "pick_heat_then_place_in_recep",
+        "gamefile": "json_2.1.1/valid_seen/pick_heat_then_place_in_recep-Apple-None-DiningTable-26/trial_T20190907_060234_011675/game.tw-pddl",
+        "task_description": "Put a heated apple on the table. ",
+        "actions": [
+          "GotoLocation(diningtable)",
+          "PickupObject(apple)",
+          "GotoLocation(microwave)",
+          "HeatObject(apple)",
+          "GotoLocation(diningtable)",
+          "PutObject(apple, diningtable)",
+          "NoOp()"
+        ],
+        "evidence_source": "official ALFRED high-level successful plan",
+        "trajectory_sha256": "bd2185349f86eb3d15ea145aad5d31b1704e1ff7922f62d8d03edd33dc34c4df",
+        "reconstructed_objective": "put a hot apple in dining table"
+      },
+      "sources": {
+        "matched_far": {
+          "lexical_similarity": 0.0,
+          "task_id": "json_2.1.1/train/pick_heat_then_place_in_recep-Egg-None-Fridge-24/trial_T20190909_005558_532531/game.tw-pddl",
+          "family": "pick_heat_then_place_in_recep",
+          "task_description": "Heat and chill an egg.",
+          "operator_signature": [
+            "GotoLocation",
+            "PickupObject",
+            "GotoLocation",
+            "HeatObject",
+            "GotoLocation",
+            "PutObject",
+            "NoOp"
+          ],
+          "skill_text": "Verified role-normalized procedure\nSource witness operator signature: GotoLocation -> PickupObject -> GotoLocation -> HeatObject -> GotoLocation -> PutObject -> NoOp\n\nTransfer rules:\n- Bind every subject, count, device, and destination from the CURRENT objective; source entity names are intentionally absent.\n- During search, systematically inspect new locations or containers. Do not loop between already inspected locations.\n- Never acquire or transform an object whose type does not match the CURRENT target.\n- Follow actual feedback and choose only a currently admissible command.\n\nProcedure:\n1. Locate and acquire the object named by the CURRENT objective.\n2. Navigate to an available microwave, open it if needed, and heat that object.\n3. Only after heating succeeds, navigate to the CURRENT destination and place it there."
+        },
+        "matched_near": {
+          "lexical_similarity": 0.8571428571428571,
+          "task_id": "json_2.1.1/train/pick_heat_then_place_in_recep-Plate-None-DiningTable-7/trial_T20190907_223811_005665/game.tw-pddl",
+          "family": "pick_heat_then_place_in_recep",
+          "task_description": "Put a heated plate on the table.",
+          "operator_signature": [
+            "GotoLocation",
+            "PickupObject",
+            "GotoLocation",
+            "HeatObject",
+            "GotoLocation",
+            "PutObject",
+            "NoOp"
+          ],
+          "skill_text": "Verified role-normalized procedure\nSource witness operator signature: GotoLocation -> PickupObject -> GotoLocation -> HeatObject -> GotoLocation -> PutObject -> NoOp\n\nTransfer rules:\n- Bind every subject, count, device, and destination from the CURRENT objective; source entity names are intentionally absent.\n- During search, systematically inspect new locations or containers. Do not loop between already inspected locations.\n- Never acquire or transform an object whose type does not match the CURRENT target.\n- Follow actual feedback and choose only a currently admissible command.\n\nProcedure:\n1. Locate and acquire the object named by the CURRENT objective.\n2. Navigate to an available microwave, open it if needed, and heat that object.\n3. Only after heating succeeds, navigate to the CURRENT destination and place it there."
+        },
+        "lure_far": {
+          "lexical_similarity": 0.0,
+          "task_id": "json_2.1.1/train/look_at_obj_in_light-KeyChain-None-DeskLamp-309/trial_T20190909_094219_644881/game.tw-pddl",
+          "family": "look_at_obj_in_light",
+          "task_description": "Inspect keys by lamp light.",
+          "operator_signature": [
+            "GotoLocation",
+            "ToggleObject",
+            "PickupObject",
+            "NoOp"
+          ],
+          "skill_text": "Verified role-normalized procedure\nSource witness operator signature: GotoLocation -> ToggleObject -> PickupObject -> NoOp\n\nTransfer rules:\n- Bind every subject, count, device, and destination from the CURRENT objective; source entity names are intentionally absent.\n- During search, systematically inspect new locations or containers. Do not loop between already inspected locations.\n- Never acquire or transform an object whose type does not match the CURRENT target.\n- Follow actual feedback and choose only a currently admissible command.\n\nProcedure:\n1. Locate and acquire the object named by the CURRENT objective.\n2. Navigate to the objective-relevant lamp and use or activate it while retaining the target.\n3. Stop when environment feedback confirms that the target has been examined under the light."
+        },
+        "lure_near": {
+          "lexical_similarity": 0.8571428571428571,
+          "task_id": "json_2.1.1/train/pick_cool_then_place_in_recep-Apple-None-DiningTable-15/trial_T20190906_192109_267294/game.tw-pddl",
+          "family": "pick_cool_then_place_in_recep",
+          "task_description": "Put a chilled apple on the table. ",
+          "operator_signature": [
+            "GotoLocation",
+            "PickupObject",
+            "GotoLocation",
+            "CoolObject",
+            "GotoLocation",
+            "PutObject",
+            "NoOp"
+          ],
+          "skill_text": "Verified role-normalized procedure\nSource witness operator signature: GotoLocation -> PickupObject -> GotoLocation -> CoolObject -> GotoLocation -> PutObject -> NoOp\n\nTransfer rules:\n- Bind every subject, count, device, and destination from the CURRENT objective; source entity names are intentionally absent.\n- During search, systematically inspect new locations or containers. Do not loop between already inspected locations.\n- Never acquire or transform an object whose type does not match the CURRENT target.\n- Follow actual feedback and choose only a currently admissible command.\n\nProcedure:\n1. Locate and acquire the object named by the CURRENT objective.\n2. Navigate to an available refrigerator, open it if needed, and cool that object.\n3. Only after cooling succeeds, navigate to the CURRENT destination and place it there."
+        }
+      }
+    },
+    {
+      "target": {
+        "task_id": "json_2.1.1/valid_seen/pick_cool_then_place_in_recep-Tomato-None-Microwave-13/trial_T20190910_173916_331859/game.tw-pddl",
+        "family": "pick_cool_then_place_in_recep",
+        "gamefile": "json_2.1.1/valid_seen/pick_cool_then_place_in_recep-Tomato-None-Microwave-13/trial_T20190910_173916_331859/game.tw-pddl",
+        "task_description": "Put a chilled tomato in the microwave",
+        "actions": [
+          "GotoLocation(countertop)",
+          "PickupObject(tomato)",
+          "GotoLocation(fridge)",
+          "CoolObject(tomato)",
+          "GotoLocation(microwave)",
+          "PutObject(tomato, microwave)",
+          "NoOp()"
+        ],
+        "evidence_source": "official ALFRED high-level successful plan",
+        "trajectory_sha256": "1421f07bddcc471e60bb5ce8b9c12ce152ab5fecc6b16b2bf90ac8d937c8e957",
+        "reconstructed_objective": "put a cool tomato in microwave"
+      },
+      "sources": {
+        "matched_far": {
+          "lexical_similarity": 0.0,
+          "task_id": "json_2.1.1/train/pick_cool_then_place_in_recep-Apple-None-DiningTable-16/trial_T20190909_075718_480016/game.tw-pddl",
+          "family": "pick_cool_then_place_in_recep",
+          "task_description": "Move apple from table to refrigerator, chill apple, move apple to table.",
+          "operator_signature": [
+            "GotoLocation",
+            "PickupObject",
+            "GotoLocation",
+            "CoolObject",
+            "GotoLocation",
+            "PutObject"
+          ],
+          "skill_text": "Verified role-normalized procedure\nSource witness operator signature: GotoLocation -> PickupObject -> GotoLocation -> CoolObject -> GotoLocation -> PutObject\n\nTransfer rules:\n- Bind every subject, count, device, and destination from the CURRENT objective; source entity names are intentionally absent.\n- During search, systematically inspect new locations or containers. Do not loop between already inspected locations.\n- Never acquire or transform an object whose type does not match the CURRENT target.\n- Follow actual feedback and choose only a currently admissible command.\n\nProcedure:\n1. Locate and acquire the object named by the CURRENT objective.\n2. Navigate to an available refrigerator, open it if needed, and cool that object.\n3. Only after cooling succeeds, navigate to the CURRENT destination and place it there."
+        },
+        "matched_near": {
+          "lexical_similarity": 1.0,
+          "task_id": "json_2.1.1/train/pick_cool_then_place_in_recep-Tomato-None-Microwave-5/trial_T20190908_132410_284943/game.tw-pddl",
+          "family": "pick_cool_then_place_in_recep",
+          "task_description": "Put a chilled tomato in the microwave.",
+          "operator_signature": [
+            "GotoLocation",
+            "PickupObject",
+            "GotoLocation",
+            "CoolObject",
+            "GotoLocation",
+            "PutObject",
+            "NoOp"
+          ],
+          "skill_text": "Verified role-normalized procedure\nSource witness operator signature: GotoLocation -> PickupObject -> GotoLocation -> CoolObject -> GotoLocation -> PutObject -> NoOp\n\nTransfer rules:\n- Bind every subject, count, device, and destination from the CURRENT objective; source entity names are intentionally absent.\n- During search, systematically inspect new locations or containers. Do not loop between already inspected locations.\n- Never acquire or transform an object whose type does not match the CURRENT target.\n- Follow actual feedback and choose only a currently admissible command.\n\nProcedure:\n1. Locate and acquire the object named by the CURRENT objective.\n2. Navigate to an available refrigerator, open it if needed, and cool that object.\n3. Only after cooling succeeds, navigate to the CURRENT destination and place it there."
+        },
+        "lure_far": {
+          "lexical_similarity": 0.0,
+          "task_id": "json_2.1.1/train/look_at_obj_in_light-AlarmClock-None-DeskLamp-324/trial_T20190909_140235_795214/game.tw-pddl",
+          "family": "look_at_obj_in_light",
+          "task_description": "turn on light on bureau top while holding clock",
+          "operator_signature": [
+            "GotoLocation",
+            "PickupObject",
+            "GotoLocation",
+            "ToggleObject",
+            "NoOp"
+          ],
+          "skill_text": "Verified role-normalized procedure\nSource witness operator signature: GotoLocation -> PickupObject -> GotoLocation -> ToggleObject -> NoOp\n\nTransfer rules:\n- Bind every subject, count, device, and destination from the CURRENT objective; source entity names are intentionally absent.\n- During search, systematically inspect new locations or containers. Do not loop between already inspected locations.\n- Never acquire or transform an object whose type does not match the CURRENT target.\n- Follow actual feedback and choose only a currently admissible command.\n\nProcedure:\n1. Locate and acquire the object named by the CURRENT objective.\n2. Navigate to the objective-relevant lamp and use or activate it while retaining the target.\n3. Stop when environment feedback confirms that the target has been examined under the light."
+        },
+        "lure_near": {
+          "lexical_similarity": 0.9258200997725514,
+          "task_id": "json_2.1.1/train/pick_and_place_simple-Tomato-None-Microwave-5/trial_T20190918_171755_707602/game.tw-pddl",
+          "family": "pick_and_place_simple",
+          "task_description": "Put a tomato in the microwave. ",
+          "operator_signature": [
+            "GotoLocation",
+            "PickupObject",
+            "GotoLocation",
+            "PutObject",
+            "NoOp"
+          ],
+          "skill_text": "Verified role-normalized procedure\nSource witness operator signature: GotoLocation -> PickupObject -> GotoLocation -> PutObject -> NoOp\n\nTransfer rules:\n- Bind every subject, count, device, and destination from the CURRENT objective; source entity names are intentionally absent.\n- During search, systematically inspect new locations or containers. Do not loop between already inspected locations.\n- Never acquire or transform an object whose type does not match the CURRENT target.\n- Follow actual feedback and choose only a currently admissible command.\n\nProcedure:\n1. Locate and acquire the object named by the CURRENT objective.\n2. Navigate to the CURRENT objective's destination.\n3. Place the held target at that destination and stop after confirmation."
+        }
+      }
+    },
+    {
+      "target": {
+        "task_id": "json_2.1.1/valid_seen/look_at_obj_in_light-Bowl-None-DeskLamp-316/trial_T20190908_230702_962704/game.tw-pddl",
+        "family": "look_at_obj_in_light",
+        "gamefile": "json_2.1.1/valid_seen/look_at_obj_in_light-Bowl-None-DeskLamp-316/trial_T20190908_230702_962704/game.tw-pddl",
+        "task_description": "Examine a bowl by the light of a desk lamp.",
+        "actions": [
+          "GotoLocation(desk)",
+          "PickupObject(bowl)",
+          "GotoLocation(desklamp)",
+          "ToggleObject(desklamp)",
+          "NoOp()"
+        ],
+        "evidence_source": "official ALFRED high-level successful plan",
+        "trajectory_sha256": "4ea5307f8fd5f08d5ced06f5f2ffca1dcbc58a764da31432475511a8727e0fb4",
+        "reconstructed_objective": "look at bowl under the light of desk lamp"
+      },
+      "sources": {
+        "matched_far": {
+          "lexical_similarity": 0.08006407690254357,
+          "task_id": "json_2.1.1/train/look_at_obj_in_light-Bowl-None-DeskLamp-327/trial_T20190907_094410_444756/game.tw-pddl",
+          "family": "look_at_obj_in_light",
+          "task_description": "pick up cup while turning on lamp that is on dresser",
+          "operator_signature": [
+            "GotoLocation",
+            "PickupObject",
+            "GotoLocation",
+            "ToggleObject",
+            "NoOp"
+          ],
+          "skill_text": "Verified role-normalized procedure\nSource witness operator signature: GotoLocation -> PickupObject -> GotoLocation -> ToggleObject -> NoOp\n\nTransfer rules:\n- Bind every subject, count, device, and destination from the CURRENT objective; source entity names are intentionally absent.\n- During search, systematically inspect new locations or containers. Do not loop between already inspected locations.\n- Never acquire or transform an object whose type does not match the CURRENT target.\n- Follow actual feedback and choose only a currently admissible command.\n\nProcedure:\n1. Locate and acquire the object named by the CURRENT objective.\n2. Navigate to the objective-relevant lamp and use or activate it while retaining the target.\n3. Stop when environment feedback confirms that the target has been examined under the light."
+        },
+        "matched_near": {
+          "lexical_similarity": 1.0,
+          "task_id": "json_2.1.1/train/look_at_obj_in_light-Bowl-None-DeskLamp-304/trial_T20190907_232204_574574/game.tw-pddl",
+          "family": "look_at_obj_in_light",
+          "task_description": "Examine a bowl by the light of a desk lamp.",
+          "operator_signature": [
+            "GotoLocation",
+            "PickupObject",
+            "GotoLocation",
+            "ToggleObject",
+            "NoOp"
+          ],
+          "skill_text": "Verified role-normalized procedure\nSource witness operator signature: GotoLocation -> PickupObject -> GotoLocation -> ToggleObject -> NoOp\n\nTransfer rules:\n- Bind every subject, count, device, and destination from the CURRENT objective; source entity names are intentionally absent.\n- During search, systematically inspect new locations or containers. Do not loop between already inspected locations.\n- Never acquire or transform an object whose type does not match the CURRENT target.\n- Follow actual feedback and choose only a currently admissible command.\n\nProcedure:\n1. Locate and acquire the object named by the CURRENT objective.\n2. Navigate to the objective-relevant lamp and use or activate it while retaining the target.\n3. Stop when environment feedback confirms that the target has been examined under the light."
+        },
+        "lure_far": {
+          "lexical_similarity": 0.0,
+          "task_id": "json_2.1.1/train/pick_and_place_simple-Book-None-ArmChair-209/trial_T20190909_091603_675402/game.tw-pddl",
+          "family": "pick_and_place_simple",
+          "task_description": "move book from coffee table to chair",
+          "operator_signature": [
+            "GotoLocation",
+            "PickupObject",
+            "GotoLocation",
+            "PutObject"
+          ],
+          "skill_text": "Verified role-normalized procedure\nSource witness operator signature: GotoLocation -> PickupObject -> GotoLocation -> PutObject\n\nTransfer rules:\n- Bind every subject, count, device, and destination from the CURRENT objective; source entity names are intentionally absent.\n- During search, systematically inspect new locations or containers. Do not loop between already inspected locations.\n- Never acquire or transform an object whose type does not match the CURRENT target.\n- Follow actual feedback and choose only a currently admissible command.\n\nProcedure:\n1. Locate and acquire the object named by the CURRENT objective.\n2. Navigate to the CURRENT objective's destination.\n3. Place the held target at that destination and stop after confirmation."
+        },
+        "lure_near": {
+          "lexical_similarity": 0.5833333333333334,
+          "task_id": "json_2.1.1/train/pick_and_place_simple-Candle-None-CounterTop-411/trial_T20190906_200812_843662/game.tw-pddl",
+          "family": "pick_and_place_simple",
+          "task_description": "Put a candle by the edge of a bath tub.",
+          "operator_signature": [
+            "GotoLocation",
+            "PickupObject",
+            "GotoLocation",
+            "PutObject",
+            "NoOp"
+          ],
+          "skill_text": "Verified role-normalized procedure\nSource witness operator signature: GotoLocation -> PickupObject -> GotoLocation -> PutObject -> NoOp\n\nTransfer rules:\n- Bind every subject, count, device, and destination from the CURRENT objective; source entity names are intentionally absent.\n- During search, systematically inspect new locations or containers. Do not loop between already inspected locations.\n- Never acquire or transform an object whose type does not match the CURRENT target.\n- Follow actual feedback and choose only a currently admissible command.\n\nProcedure:\n1. Locate and acquire the object named by the CURRENT objective.\n2. Navigate to the CURRENT objective's destination.\n3. Place the held target at that destination and stop after confirmation."
+        }
+      }
+    },
+    {
+      "target": {
+        "task_id": "json_2.1.1/valid_seen/pick_two_obj_and_place-Book-None-Desk-302/trial_T20190906_181233_363875/game.tw-pddl",
+        "family": "pick_two_obj_and_place",
+        "gamefile": "json_2.1.1/valid_seen/pick_two_obj_and_place-Book-None-Desk-302/trial_T20190906_181233_363875/game.tw-pddl",
+        "task_description": "Put two books on a desk.",
+        "actions": [
+          "GotoLocation(sidetable)",
+          "PickupObject(book)",
+          "GotoLocation(desk)",
+          "PutObject(book, desk)",
+          "GotoLocation(bed)",
+          "PickupObject(book)",
+          "GotoLocation(desk)",
+          "PutObject(book, desk)",
+          "NoOp()"
+        ],
+        "evidence_source": "official ALFRED high-level successful plan",
+        "trajectory_sha256": "4c7e61dc5c5eaa67add9eb17643dbca084500f9815706e8efeb5b6ea39a37d19",
+        "reconstructed_objective": "put two book in desk"
+      },
+      "sources": {
+        "matched_far": {
+          "lexical_similarity": 0.0,
+          "task_id": "json_2.1.1/train/pick_two_obj_and_place-CD-None-Drawer-319/trial_T20190907_145438_983650/game.tw-pddl",
+          "family": "pick_two_obj_and_place",
+          "task_description": "Place the CDs inside the bottom drawer below the alarm clock.",
+          "operator_signature": [
+            "GotoLocation",
+            "PickupObject",
+            "GotoLocation",
+            "PutObject",
+            "GotoLocation",
+            "PickupObject",
+            "GotoLocation",
+            "PutObject",
+            "NoOp"
+          ],
+          "skill_text": "Verified role-normalized procedure\nSource witness operator signature: GotoLocation -> PickupObject -> GotoLocation -> PutObject -> GotoLocation -> PickupObject -> GotoLocation -> PutObject -> NoOp\n\nTransfer rules:\n- Bind every subject, count, device, and destination from the CURRENT objective; source entity names are intentionally absent.\n- During search, systematically inspect new locations or containers. Do not loop between already inspected locations.\n- Never acquire or transform an object whose type does not match the CURRENT target.\n- Follow actual feedback and choose only a currently admissible command.\n\nProcedure:\n1. Locate and acquire one object matching the CURRENT objective.\n2. Navigate to the CURRENT destination and place that object there.\n3. Locate a different object of the same requested type.\n4. Acquire it, return to the CURRENT destination, and place it there."
+        },
+        "matched_near": {
+          "lexical_similarity": 0.8333333333333334,
+          "task_id": "json_2.1.1/train/pick_two_obj_and_place-Pencil-None-Desk-327/trial_T20190911_224632_531947/game.tw-pddl",
+          "family": "pick_two_obj_and_place",
+          "task_description": "Put two pencils on a desk.",
+          "operator_signature": [
+            "GotoLocation",
+            "PickupObject",
+            "GotoLocation",
+            "PutObject",
+            "GotoLocation",
+            "PickupObject",
+            "GotoLocation",
+            "PutObject",
+            "NoOp"
+          ],
+          "skill_text": "Verified role-normalized procedure\nSource witness operator signature: GotoLocation -> PickupObject -> GotoLocation -> PutObject -> GotoLocation -> PickupObject -> GotoLocation -> PutObject -> NoOp\n\nTransfer rules:\n- Bind every subject, count, device, and destination from the CURRENT objective; source entity names are intentionally absent.\n- During search, systematically inspect new locations or containers. Do not loop between already inspected locations.\n- Never acquire or transform an object whose type does not match the CURRENT target.\n- Follow actual feedback and choose only a currently admissible command.\n\nProcedure:\n1. Locate and acquire one object matching the CURRENT objective.\n2. Navigate to the CURRENT destination and place that object there.\n3. Locate a different object of the same requested type.\n4. Acquire it, return to the CURRENT destination, and place it there."
+        },
+        "lure_far": {
+          "lexical_similarity": 0.0,
+          "task_id": "json_2.1.1/train/look_at_obj_in_light-AlarmClock-None-DeskLamp-318/trial_T20190906_180754_637797/game.tw-pddl",
+          "family": "look_at_obj_in_light",
+          "task_description": "View the black and brown object in the light. ",
+          "operator_signature": [
+            "GotoLocation",
+            "PickupObject",
+            "GotoLocation",
+            "ToggleObject",
+            "NoOp"
+          ],
+          "skill_text": "Verified role-normalized procedure\nSource witness operator signature: GotoLocation -> PickupObject -> GotoLocation -> ToggleObject -> NoOp\n\nTransfer rules:\n- Bind every subject, count, device, and destination from the CURRENT objective; source entity names are intentionally absent.\n- During search, systematically inspect new locations or containers. Do not loop between already inspected locations.\n- Never acquire or transform an object whose type does not match the CURRENT target.\n- Follow actual feedback and choose only a currently admissible command.\n\nProcedure:\n1. Locate and acquire the object named by the CURRENT objective.\n2. Navigate to the objective-relevant lamp and use or activate it while retaining the target.\n3. Stop when environment feedback confirms that the target has been examined under the light."
+        },
+        "lure_near": {
+          "lexical_similarity": 0.7216878364870323,
+          "task_id": "json_2.1.1/train/pick_and_place_simple-Pencil-None-Desk-310/trial_T20190909_142857_563593/game.tw-pddl",
+          "family": "pick_and_place_simple",
+          "task_description": "Put a pencil on a desk.",
+          "operator_signature": [
+            "GotoLocation",
+            "PickupObject",
+            "GotoLocation",
+            "PutObject",
+            "NoOp"
+          ],
+          "skill_text": "Verified role-normalized procedure\nSource witness operator signature: GotoLocation -> PickupObject -> GotoLocation -> PutObject -> NoOp\n\nTransfer rules:\n- Bind every subject, count, device, and destination from the CURRENT objective; source entity names are intentionally absent.\n- During search, systematically inspect new locations or containers. Do not loop between already inspected locations.\n- Never acquire or transform an object whose type does not match the CURRENT target.\n- Follow actual feedback and choose only a currently admissible command.\n\nProcedure:\n1. Locate and acquire the object named by the CURRENT objective.\n2. Navigate to the CURRENT objective's destination.\n3. Place the held target at that destination and stop after confirmation."
+        }
+      }
+    }
+  ]
+}

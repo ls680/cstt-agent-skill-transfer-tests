@@ -1,0 +1,38 @@
+{
+  "title": "Same Words, Different Procedure: Counterfactual Transfer Tests for Reusable LLM-Agent Skills (Software and Reproducibility Artifacts)",
+  "upload_type": "software",
+  "description": "<p>This versioned archive contains the implementation, frozen protocols, native interaction records, tests, audits, analyses, and manuscript sources for the Counterfactual Skill Transfer Test (CSTT).</p><p>CSTT is a state-matched six-condition protocol that crosses source procedural compatibility with lexical similarity and includes no-skill and binding-only controls. The frozen confirmation contains 60 zero-overlap ALFWorld targets, three open local model families, 180 paired target-model blocks, and 1,080 native episodes. Matched-far skills achieved 97.8% native success versus 10.0% for lexically near procedural lures, an 87.8-point paired gain (target-stratified 95% CI 82.8-93.3; task-clustered randomization p = 1.00e-6). Relative to binding-only, the net gain was 83.3 points with zero observed harmful discordances.</p><p>The archive includes integrity manifests and CPU-only verification scripts. Third-party ALFWorld data and model weights are not redistributed; pinned identifiers, revisions, paths, licenses, and integrity checks are provided instead.</p>",
+  "creators": [
+    {
+      "name": "Liang, Song",
+      "affiliation": "Business School, Xi'an International University",
+      "orcid": "0009-0002-6109-0639"
+    },
+    {
+      "name": "Zhai, Jiabao",
+      "affiliation": "School of Management and Economics, North China University of Water Resources and Electric Power"
+    }
+  ],
+  "publication_date": "2026-09-20",
+  "access_right": "open",
+  "license": "apache-2.0",
+  "version": "0.1.0",
+  "language": "eng",
+  "keywords": [
+    "LLM agents",
+    "agent skills",
+    "skill transfer",
+    "counterfactual evaluation",
+    "procedural compatibility",
+    "negative transfer",
+    "ALFWorld"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/ls680/cstt-agent-skill-transfer-tests",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ],
+  "notes": "Original project materials are released under Apache-2.0. Third-party dependencies and benchmark assets remain under their upstream licenses and are not redistributed."
+}

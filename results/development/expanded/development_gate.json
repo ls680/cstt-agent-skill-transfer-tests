@@ -1,0 +1,21 @@
+{
+  "status": "pass",
+  "gates": {
+    "at_least_30_targets": true,
+    "native_complete_state_matched": true,
+    "primary_gain_at_least_0_10": true,
+    "net_causal_effect_at_least_0_08": true,
+    "harm_rate_at_most_0_05": true,
+    "positive_in_four_families": true,
+    "sources_and_actions_auditable": true
+  },
+  "metrics": {
+    "matched_far_success": 1.0,
+    "lure_near_success": 0.1,
+    "primary_gain": 0.9,
+    "net_causal_effect_vs_binding_only": 0.8333333333333334,
+    "harm_rate_vs_binding_only": 0.0,
+    "positive_families": 6
+  },
+  "confirmation_may_be_opened": true
+}

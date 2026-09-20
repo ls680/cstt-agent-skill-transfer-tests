@@ -1,0 +1,112 @@
+\documentclass[10pt]{article}
+\usepackage[a4paper,margin=20mm]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{microtype}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5pt}
+\setlist[enumerate]{leftmargin=*,itemsep=7pt,topsep=4pt}
+\begin{document}
+
+\begin{center}
+{\Large\bfseries Information Sheet for a Regular Paper}\par
+\vspace{4pt}
+{\bfseries Same Words, Different Procedure: Counterfactual Transfer Tests for
+Reusable LLM-Agent Skills}
+\end{center}
+
+\begin{enumerate}
+\item \textbf{What is the main claim of the paper, and why is it important to
+the autonomous-agents and multi-agent-systems literature?}
+
+Success after supplying an agent with a reusable skill is not, by itself,
+evidence that the skill caused success. A base agent may already solve the
+target, generic grounding and search controls may explain the gain, or a
+lexically similar source may encode an incompatible procedure. The paper's
+main claim is that a state-matched, six-condition counterfactual protocol can
+separate these explanations and attribute target success specifically to
+procedural compatibility under the tested executor.
+
+The Counterfactual Skill Transfer Test (CSTT) crosses compatible versus
+incompatible source procedures with near versus far lexical similarity on the
+same native target. It adds a no-skill condition and a binding-only condition
+that receives the same target grounding and search safeguards but no source
+procedure. This distinction matters for agent architecture evaluation: without
+it, a skill library can be credited for behavior supplied by the base model or
+the executor. CSTT also produces deployment-relevant measures of helpful,
+harmful, redundant, and shared-failure transfer. The contribution fits the
+journal's interests in evaluating agent decision-making architectures,
+testbeds for agent analysis, and software-engineering methods for autonomous
+agents.
+
+\item \textbf{What evidence supports the claim?}
+
+After two retained failed pilots and one final mechanism revision, the complete
+method, source assignment, three model revisions, inference procedure, decision
+gates, and a zero-overlap confirmation roster were frozen. Confirmation uses 60
+previously untouched ALFWorld targets, three open local model families, six
+conditions per target--model block, 180 paired blocks, and 1,080 native
+episodes.
+
+The procedurally matched but lexically far condition succeeds in 176/180 blocks
+(97.8\%), compared with 18/180 (10.0\%) for the lexically near procedural lure.
+The paired gain is 87.8 percentage points, with a target-stratified 95\%
+bootstrap interval of 82.8--93.3 points and a task-clustered randomization
+$p=1.00\times10^{-6}$. Relative to the fair binding-only control, matched-far
+produces 150 helpful and zero harmful discordances, an 83.3-point net gain. The
+primary effect is 88.3, 88.3, and 86.7 points in the three model families and
+positive in all six task families. Independent audits accept all 1,080 episodes
+and 46,662 native turns with exact within-block initial-state matching, valid
+native actions, valid source assignments, and no target-plan leakage.
+
+The claim is deliberately bounded. The confirmation covers instance-level
+transfer in one embodied text environment and three small-to-medium open
+models. It does not establish universal retrieval quality, cross-domain
+transfer, or benefits for proprietary frontier models.
+
+\item \textbf{Which papers make the most closely related contributions, and
+how does this paper differ?}
+
+Taylor and Stone, ``Transfer Learning for Reinforcement Learning Domains: A
+Survey,'' \emph{Journal of Machine Learning Research} 10 (2009), 1633--1685,
+and da Silva and Costa, ``A Survey on Transfer Learning for Multiagent
+Reinforcement Learning Systems,'' \emph{Journal of Artificial Intelligence
+Research} 64 (2019), 645--703, establish transfer criteria, baselines, and the
+importance of source--target relationships. Tuynman and Ortner,
+``Quantification of transfer in reinforcement learning via regret bounds for
+learning agents,'' \emph{Autonomous Agents and Multi-Agent Systems} 40 (2026),
+article 16, quantifies transfer relative to learning without shared experience.
+CSTT applies the same comparative principle to reusable LLM-agent procedures,
+but uses paired native outcomes and a control that isolates executor assistance.
+
+The closest recent skill studies are Zhou et al., ``Counterfactual Trace
+Auditing of LLM Agent Skills'' (arXiv:2605.11946), which labels behavioral
+influence patterns in paired with/without-skill traces; Yang et al.,
+``SkillMaster'' (arXiv:2605.08693), which uses counterfactual probe utility to
+train skill editing; and Belikova et al., ``Managing Procedural Memory in LLM
+Agents'' (arXiv:2606.23127), which benchmarks transfer across tasks, roles, and
+models. CSTT differs by experimentally crossing procedural compatibility with
+lexical similarity on the same initial state and by separating source-procedure
+credit from target binding and generic search controls.
+
+\item \textbf{Have parts of this paper been published before?}
+
+No part of this manuscript has been published in an archival journal or
+conference, and this manuscript is not under consideration elsewhere. The
+authors will release the code, records, and manuscript-supporting artifacts in
+a public repository and a versioned Zenodo archive for reproducibility; these
+artifact releases are not prior archival publication of the article.
+
+For transparency, a related manuscript by the same authors, ``From Traces to
+Witnessed Contracts: Incremental Precondition--Effect Compilation for LLM Agent
+Skills,'' is currently under consideration at \emph{Automated Software
+Engineering}. That work studies pre-execution detection of defective skill
+revisions. The present manuscript studies causal attribution of skill-transfer
+benefits. The two studies use disjoint confirmation targets and different
+methods, estimands, experiments, figures, tables, endpoints, and results. They
+share only the broader agent-skill lifecycle motivation, a public benchmark
+platform, and general experimental infrastructure. A copy of the related
+manuscript is supplied separately for editorial assessment.
+\end{enumerate}
+
+\end{document}

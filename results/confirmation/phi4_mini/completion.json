@@ -1,0 +1,8 @@
+{
+  "status": "completed",
+  "episodes": 360,
+  "target_blocks": 60,
+  "peak_cuda_memory_gib": 7.76953125,
+  "elapsed_seconds_this_process": 5822.5549766081385,
+  "episodes_sha256": "ce22ebfde7f0fb088c5d4fe74c254d30b10daa6429be89604a251dcc5f1f5920"
+}

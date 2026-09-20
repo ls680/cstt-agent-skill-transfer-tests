@@ -1,0 +1,17 @@
+{
+  "evidence": "frozen_confirmation",
+  "pairs_path": "data/confirmation/runtime_pairs.json",
+  "model": {
+    "id": "mistralai/Mistral-7B-Instruct-v0.3",
+    "revision": "c170c708c41dac9275d15a8fff4eca08d52bab71",
+    "label": "mistral7b_v03"
+  },
+  "conditions": ["no_skill", "binding_only", "matched_near", "matched_far", "lure_near", "lure_far"],
+  "max_steps": 100,
+  "max_new_tokens": 24,
+  "history_turns": 12,
+  "search_width": 5,
+  "causal_control": "binding_only",
+  "seed": 20260907,
+  "output_dir": "results/confirmation/mistral7b_v03"
+}

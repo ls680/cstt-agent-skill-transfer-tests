@@ -1,0 +1,13 @@
+{
+  "model_configs": [
+    "configs/confirmation_qwen3_4b.json",
+    "configs/confirmation_phi4_mini.json",
+    "configs/confirmation_mistral7b.json"
+  ],
+  "pairs_path": "data/confirmation/runtime_pairs.json",
+  "roster_path": "data/confirmation/roster.json",
+  "bootstrap_samples": 50000,
+  "randomization_samples": 1000000,
+  "seed": 20260907,
+  "output_dir": "results/confirmation/analysis"
+}

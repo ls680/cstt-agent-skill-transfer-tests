@@ -1,0 +1,9 @@
+transformers==4.57.6
+accelerate==1.14.0
+safetensors==0.8.0
+sentencepiece==0.2.2
+json-repair==0.63.4
+alfworld==0.4.2
+textworld==1.7.0
+numpy>=2.2,<3
+scipy>=1.15,<2

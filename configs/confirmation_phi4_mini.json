@@ -1,0 +1,17 @@
+{
+  "evidence": "frozen_confirmation",
+  "pairs_path": "data/confirmation/runtime_pairs.json",
+  "model": {
+    "id": "microsoft/Phi-4-mini-instruct",
+    "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+    "label": "phi4_mini"
+  },
+  "conditions": ["no_skill", "binding_only", "matched_near", "matched_far", "lure_near", "lure_far"],
+  "max_steps": 100,
+  "max_new_tokens": 24,
+  "history_turns": 12,
+  "search_width": 5,
+  "causal_control": "binding_only",
+  "seed": 20260907,
+  "output_dir": "results/confirmation/phi4_mini"
+}

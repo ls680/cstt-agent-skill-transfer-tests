@@ -1,0 +1,153 @@
+{
+  "status": "development_complete",
+  "summary": {
+    "no_skill": {
+      "tasks": 30,
+      "successes": 5,
+      "success_rate": 0.16666666666666666,
+      "mean_score": 0.16666666666666666,
+      "steps": 2557,
+      "input_tokens": 2364106,
+      "output_tokens": 19579
+    },
+    "binding_only": {
+      "tasks": 30,
+      "successes": 5,
+      "success_rate": 0.16666666666666666,
+      "mean_score": 0.16666666666666666,
+      "steps": 2558,
+      "input_tokens": 1504010,
+      "output_tokens": 17906
+    },
+    "matched_near": {
+      "tasks": 30,
+      "successes": 30,
+      "success_rate": 1.0,
+      "mean_score": 1.0,
+      "steps": 253,
+      "input_tokens": 150598,
+      "output_tokens": 1771
+    },
+    "matched_far": {
+      "tasks": 30,
+      "successes": 30,
+      "success_rate": 1.0,
+      "mean_score": 1.0,
+      "steps": 253,
+      "input_tokens": 150598,
+      "output_tokens": 1771
+    },
+    "lure_near": {
+      "tasks": 30,
+      "successes": 3,
+      "success_rate": 0.1,
+      "mean_score": 0.1,
+      "steps": 193,
+      "input_tokens": 106961,
+      "output_tokens": 1351
+    },
+    "lure_far": {
+      "tasks": 30,
+      "successes": 0,
+      "success_rate": 0.0,
+      "mean_score": 0.0,
+      "steps": 1256,
+      "input_tokens": 923503,
+      "output_tokens": 8792
+    }
+  },
+  "causal_control": "binding_only",
+  "causal_vs_control": {
+    "no_skill": {
+      "helpful": 1,
+      "harmful": 1,
+      "redundant_success": 4,
+      "shared_failure": 24,
+      "net_causal_effect": 0.0,
+      "harm_rate": 0.03333333333333333,
+      "net_by_family": {
+        "pick_and_place_simple": 0.0,
+        "pick_clean_then_place_in_recep": 0.2,
+        "pick_heat_then_place_in_recep": 0.0,
+        "pick_cool_then_place_in_recep": 0.0,
+        "look_at_obj_in_light": 0.0,
+        "pick_two_obj_and_place": -0.2
+      }
+    },
+    "matched_near": {
+      "helpful": 25,
+      "harmful": 0,
+      "redundant_success": 5,
+      "shared_failure": 0,
+      "net_causal_effect": 0.8333333333333334,
+      "harm_rate": 0.0,
+      "net_by_family": {
+        "pick_and_place_simple": 0.6,
+        "pick_clean_then_place_in_recep": 1.0,
+        "pick_heat_then_place_in_recep": 1.0,
+        "pick_cool_then_place_in_recep": 1.0,
+        "look_at_obj_in_light": 0.6,
+        "pick_two_obj_and_place": 0.8
+      }
+    },
+    "matched_far": {
+      "helpful": 25,
+      "harmful": 0,
+      "redundant_success": 5,
+      "shared_failure": 0,
+      "net_causal_effect": 0.8333333333333334,
+      "harm_rate": 0.0,
+      "net_by_family": {
+        "pick_and_place_simple": 0.6,
+        "pick_clean_then_place_in_recep": 1.0,
+        "pick_heat_then_place_in_recep": 1.0,
+        "pick_cool_then_place_in_recep": 1.0,
+        "look_at_obj_in_light": 0.6,
+        "pick_two_obj_and_place": 0.8
+      }
+    },
+    "lure_near": {
+      "helpful": 2,
+      "harmful": 4,
+      "redundant_success": 1,
+      "shared_failure": 23,
+      "net_causal_effect": -0.06666666666666667,
+      "harm_rate": 0.13333333333333333,
+      "net_by_family": {
+        "pick_and_place_simple": 0.2,
+        "pick_clean_then_place_in_recep": 0.0,
+        "pick_heat_then_place_in_recep": 0.0,
+        "pick_cool_then_place_in_recep": 0.0,
+        "look_at_obj_in_light": -0.4,
+        "pick_two_obj_and_place": -0.2
+      }
+    },
+    "lure_far": {
+      "helpful": 0,
+      "harmful": 5,
+      "redundant_success": 0,
+      "shared_failure": 25,
+      "net_causal_effect": -0.16666666666666666,
+      "harm_rate": 0.16666666666666666,
+      "net_by_family": {
+        "pick_and_place_simple": -0.4,
+        "pick_clean_then_place_in_recep": 0.0,
+        "pick_heat_then_place_in_recep": 0.0,
+        "pick_cool_then_place_in_recep": 0.0,
+        "look_at_obj_in_light": -0.4,
+        "pick_two_obj_and_place": -0.2
+      }
+    }
+  },
+  "matched_far_minus_lure_near": 0.9,
+  "matched_far_minus_lure_near_by_family": {
+    "pick_and_place_simple": 0.4,
+    "pick_clean_then_place_in_recep": 1.0,
+    "pick_heat_then_place_in_recep": 1.0,
+    "pick_cool_then_place_in_recep": 1.0,
+    "look_at_obj_in_light": 1.0,
+    "pick_two_obj_and_place": 1.0
+  },
+  "all_initial_states_matched": true,
+  "confirmation_claim_permitted": false
+}

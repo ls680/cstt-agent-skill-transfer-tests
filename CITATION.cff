@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "Please cite the associated paper and software release."
+title: "Counterfactual Skill Transfer Tests"
+type: software
+version: 0.1.0
+date-released: 2026-09-20
+authors:
+  - family-names: "Liang"
+    given-names: "Song"
+    email: "liangsong_1976@126.com"
+    orcid: "https://orcid.org/0009-0002-6109-0639"
+    affiliation: "Business School, Xi'an International University"
+  - family-names: "Zhai"
+    given-names: "Jiabao"
+    email: "zhaijiabao123@126.com"
+    affiliation: "School of Management and Economics, North China University of Water Resources and Electric Power"
+repository-code: "https://github.com/ls680/cstt-agent-skill-transfer-tests"
+license: "Apache-2.0"
+keywords:
+  - "LLM agents"
+  - "agent skills"
+  - "skill transfer"
+  - "counterfactual evaluation"
+  - "procedural compatibility"
+  - "negative transfer"
+preferred-citation:
+  type: article
+  title: "Same Words, Different Procedure: Counterfactual Transfer Tests for Reusable LLM-Agent Skills"
+  authors:
+    - family-names: "Liang"
+      given-names: "Song"
+      orcid: "https://orcid.org/0009-0002-6109-0639"
+    - family-names: "Zhai"
+      given-names: "Jiabao"
+  year: 2026

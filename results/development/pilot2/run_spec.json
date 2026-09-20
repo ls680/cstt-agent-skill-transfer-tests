@@ -1,0 +1,38 @@
+{
+  "config": {
+    "evidence": "exposed_development_only_revision2",
+    "manifest": "../01_skilllineage/data/processed/interactive_manifest.json",
+    "inventory": "../01_skilllineage/research/validation/inventory_20260905.json",
+    "model": {
+      "id": "Qwen/Qwen3-4B-Instruct-2507",
+      "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+      "label": "qwen3_4b"
+    },
+    "conditions": [
+      "no_skill",
+      "matched_near",
+      "matched_far",
+      "lure_near",
+      "lure_far"
+    ],
+    "tasks_per_family": 1,
+    "families": [
+      "pick_and_place_simple",
+      "pick_clean_then_place_in_recep",
+      "pick_heat_then_place_in_recep",
+      "pick_cool_then_place_in_recep",
+      "look_at_obj_in_light",
+      "pick_two_obj_and_place"
+    ],
+    "max_steps": 40,
+    "max_new_tokens": 24,
+    "history_turns": 12,
+    "seed": 20260907,
+    "output_dir": "results/development/pilot2"
+  },
+  "config_sha256": "da4c09f10328543703867730b4cf742c93e4e4855df38912bfdca3573fb21c15",
+  "pairs_sha256": "6a3edbc9e6c07719f43a2b16bbb80acc9c9518b262750e0029c5d7609121e298",
+  "runner_sha256": "32728dca49db8bceddd44dc75467fe6d2af8b9c156306eb034ec27ff9d5064b2",
+  "paper1_interactive_sha256": "e00ff3de13949d67de4180a243e5bfe572ec431cbc0c47ee17dc3f7e36d15a23",
+  "paper1_environments_sha256": "bf31cb3078dee54c7c96c2425a44103c846b02d127b37323fc90bac91b7706a4"
+}

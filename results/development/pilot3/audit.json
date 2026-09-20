@@ -1,0 +1,12 @@
+{
+  "status": "pass",
+  "episodes": 36,
+  "target_blocks": 6,
+  "turns_checked": 2146,
+  "all_initial_states_matched": true,
+  "all_actions_native": true,
+  "candidate_partitions_complete": true,
+  "source_assignments_valid": true,
+  "target_plan_absent_required": false,
+  "failures": []
+}

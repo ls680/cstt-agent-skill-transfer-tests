@@ -1,0 +1,635 @@
+{
+  "prior_target_count": 213,
+  "prior_target_ids": [
+    "json_2.1.1/valid_seen/look_at_obj_in_light-Bowl-None-DeskLamp-316/trial_T20190908_230702_962704/game.tw-pddl",
+    "json_2.1.1/valid_seen/look_at_obj_in_light-CD-None-DeskLamp-302/trial_T20190907_154618_526741/game.tw-pddl",
+    "json_2.1.1/valid_seen/look_at_obj_in_light-CD-None-DeskLamp-314/trial_T20190907_114323_767231/game.tw-pddl",
+    "json_2.1.1/valid_seen/look_at_obj_in_light-Laptop-None-DeskLamp-328/trial_T20190908_201550_622420/game.tw-pddl",
+    "json_2.1.1/valid_seen/look_at_obj_in_light-Pillow-None-DeskLamp-323/trial_T20190908_053153_077977/game.tw-pddl",
+    "json_2.1.1/valid_seen/pick_and_place_simple-Book-None-SideTable-329/trial_T20190908_050633_745514/game.tw-pddl",
+    "json_2.1.1/valid_seen/pick_and_place_simple-Bowl-None-CoffeeTable-201/trial_T20190907_171639_045329/game.tw-pddl",
+    "json_2.1.1/valid_seen/pick_and_place_simple-Box-None-Dresser-224/trial_T20190907_164104_229696/game.tw-pddl",
+    "json_2.1.1/valid_seen/pick_and_place_simple-Candle-None-Cart-401/trial_T20190909_081908_677973/game.tw-pddl",
+    "json_2.1.1/valid_seen/pick_and_place_simple-Candle-None-Toilet-407/trial_T20190909_055248_059513/game.tw-pddl",
+    "json_2.1.1/valid_seen/pick_and_place_simple-Candle-None-Toilet-429/trial_T20190908_052232_887934/game.tw-pddl",
+    "json_2.1.1/valid_seen/pick_and_place_simple-CellPhone-None-ArmChair-318/trial_T20190909_120047_968274/game.tw-pddl",
+    "json_2.1.1/valid_seen/pick_and_place_simple-CreditCard-None-ArmChair-201/trial_T20190908_124340_258012/game.tw-pddl",
+    "json_2.1.1/valid_seen/pick_and_place_simple-Knife-None-SideTable-3/trial_T20190918_184236_557252/game.tw-pddl",
+    "json_2.1.1/valid_seen/pick_and_place_simple-Mug-None-Dresser-311/trial_T20190909_152837_739016/game.tw-pddl",
+    "json_2.1.1/valid_seen/pick_and_place_simple-Mug-None-SideTable-329/trial_T20190909_032318_169393/game.tw-pddl",
+    "json_2.1.1/valid_seen/pick_and_place_simple-Newspaper-None-Sofa-224/trial_T20190909_111324_949106/game.tw-pddl",
+    "json_2.1.1/valid_seen/pick_and_place_simple-Pencil-None-Dresser-330/trial_T20190909_071128_012892/game.tw-pddl",
+    "json_2.1.1/valid_seen/pick_and_place_simple-RemoteControl-None-ArmChair-230/trial_T20190909_021000_274398/game.tw-pddl",
+    "json_2.1.1/valid_seen/pick_and_place_simple-RemoteControl-None-Sofa-207/trial_T20190909_153609_373481/game.tw-pddl",
+    "json_2.1.1/valid_seen/pick_and_place_simple-SoapBar-None-Cart-401/trial_T20190907_054906_608944/game.tw-pddl",
+    "json_2.1.1/valid_seen/pick_and_place_simple-SoapBottle-None-Cabinet-414/trial_T20190908_110131_524518/game.tw-pddl",
+    "json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Cabinet-413/trial_T20190907_114931_692464/game.tw-pddl",
+    "json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-GarbageCan-409/trial_T20190908_054742_818364/game.tw-pddl",
+    "json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-415/trial_T20190909_075955_678702/game.tw-pddl",
+    "json_2.1.1/valid_seen/pick_and_place_simple-TissueBox-None-Toilet-426/trial_T20190910_155319_795672/game.tw-pddl",
+    "json_2.1.1/valid_seen/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-406/trial_T20190908_122858_883968/game.tw-pddl",
+    "json_2.1.1/valid_seen/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-415/trial_T20190908_050518_595510/game.tw-pddl",
+    "json_2.1.1/valid_seen/pick_and_place_simple-Tomato-None-Microwave-13/trial_T20190908_124829_632660/game.tw-pddl",
+    "json_2.1.1/valid_seen/pick_and_place_simple-Vase-None-CoffeeTable-207/trial_T20190909_091246_807206/game.tw-pddl",
+    "json_2.1.1/valid_seen/pick_and_place_simple-Watch-None-SideTable-222/trial_T20190909_051813_197569/game.tw-pddl",
+    "json_2.1.1/valid_seen/pick_clean_then_place_in_recep-ButterKnife-None-DiningTable-16/trial_T20190909_114508_617301/game.tw-pddl",
+    "json_2.1.1/valid_seen/pick_clean_then_place_in_recep-ButterKnife-None-Drawer-30/trial_T20190908_052007_212776/game.tw-pddl",
+    "json_2.1.1/valid_seen/pick_clean_then_place_in_recep-ButterKnife-None-Drawer-8/trial_T20190909_124425_112757/game.tw-pddl",
+    "json_2.1.1/valid_seen/pick_clean_then_place_in_recep-Cloth-None-Cabinet-405/trial_T20190907_080903_889497/game.tw-pddl",
+    "json_2.1.1/valid_seen/pick_clean_then_place_in_recep-Fork-None-CounterTop-23/trial_T20190908_233922_171295/game.tw-pddl",
+    "json_2.1.1/valid_seen/pick_clean_then_place_in_recep-Fork-None-Drawer-8/trial_T20190908_132152_999725/game.tw-pddl",
+    "json_2.1.1/valid_seen/pick_clean_then_place_in_recep-Ladle-None-CounterTop-14/trial_T20190909_113844_191747/game.tw-pddl",
+    "json_2.1.1/valid_seen/pick_clean_then_place_in_recep-Ladle-None-CounterTop-8/trial_T20190909_121908_219603/game.tw-pddl",
+    "json_2.1.1/valid_seen/pick_clean_then_place_in_recep-Ladle-None-DiningTable-4/trial_T20190909_164840_568811/game.tw-pddl",
+    "json_2.1.1/valid_seen/pick_clean_then_place_in_recep-Lettuce-None-CounterTop-16/trial_T20190909_051630_092360/game.tw-pddl",
+    "json_2.1.1/valid_seen/pick_clean_then_place_in_recep-Lettuce-None-Fridge-19/trial_T20190908_100138_446072/game.tw-pddl",
+    "json_2.1.1/valid_seen/pick_clean_then_place_in_recep-Mug-None-CoffeeMachine-26/trial_T20190907_233056_022802/game.tw-pddl",
+    "json_2.1.1/valid_seen/pick_clean_then_place_in_recep-Plate-None-CounterTop-19/trial_T20190908_212725_836398/game.tw-pddl",
+    "json_2.1.1/valid_seen/pick_clean_then_place_in_recep-Plate-None-Fridge-5/trial_T20190909_112854_740612/game.tw-pddl",
+    "json_2.1.1/valid_seen/pick_clean_then_place_in_recep-SoapBar-None-Cabinet-402/trial_T20190908_055221_984342/game.tw-pddl",
+    "json_2.1.1/valid_seen/pick_clean_then_place_in_recep-SoapBar-None-Drawer-423/trial_T20190906_202340_749336/game.tw-pddl",
+    "json_2.1.1/valid_seen/pick_clean_then_place_in_recep-SoapBar-None-Toilet-410/trial_T20190906_201106_979461/game.tw-pddl",
+    "json_2.1.1/valid_seen/pick_clean_then_place_in_recep-SoapBar-None-Toilet-428/trial_T20190907_041436_588106/game.tw-pddl",
+    "json_2.1.1/valid_seen/pick_clean_then_place_in_recep-Spatula-None-DiningTable-4/trial_T20190909_002804_564168/game.tw-pddl",
+    "json_2.1.1/valid_seen/pick_cool_then_place_in_recep-Apple-None-CounterTop-14/trial_T20190909_044933_815840/game.tw-pddl",
+    "json_2.1.1/valid_seen/pick_cool_then_place_in_recep-Apple-None-GarbageCan-2/trial_T20190906_195943_081289/game.tw-pddl",
+    "json_2.1.1/valid_seen/pick_cool_then_place_in_recep-Apple-None-Microwave-5/trial_T20190908_150807_823817/game.tw-pddl",
+    "json_2.1.1/valid_seen/pick_cool_then_place_in_recep-Bowl-None-Cabinet-20/trial_T20190909_112912_154874/game.tw-pddl",
+    "json_2.1.1/valid_seen/pick_cool_then_place_in_recep-Cup-None-Microwave-17/trial_T20190906_192817_654400/game.tw-pddl",
+    "json_2.1.1/valid_seen/pick_cool_then_place_in_recep-Lettuce-None-CounterTop-1/trial_T20190908_042713_075616/game.tw-pddl",
+    "json_2.1.1/valid_seen/pick_cool_then_place_in_recep-Lettuce-None-CounterTop-11/trial_T20190908_222555_651605/game.tw-pddl",
+    "json_2.1.1/valid_seen/pick_cool_then_place_in_recep-Mug-None-CoffeeMachine-16/trial_T20190908_184242_348366/game.tw-pddl",
+    "json_2.1.1/valid_seen/pick_cool_then_place_in_recep-Pan-None-StoveBurner-23/trial_T20190906_215856_374127/game.tw-pddl",
+    "json_2.1.1/valid_seen/pick_cool_then_place_in_recep-Plate-None-Cabinet-7/trial_T20190907_231206_512424/game.tw-pddl",
+    "json_2.1.1/valid_seen/pick_cool_then_place_in_recep-Plate-None-CounterTop-1/trial_T20190906_205324_559361/game.tw-pddl",
+    "json_2.1.1/valid_seen/pick_cool_then_place_in_recep-Tomato-None-CounterTop-12/trial_T20190909_063754_216554/game.tw-pddl",
+    "json_2.1.1/valid_seen/pick_cool_then_place_in_recep-Tomato-None-CounterTop-12/trial_T20190909_063844_274181/game.tw-pddl",
+    "json_2.1.1/valid_seen/pick_cool_then_place_in_recep-Tomato-None-GarbageCan-6/trial_T20190909_082934_483899/game.tw-pddl",
+    "json_2.1.1/valid_seen/pick_cool_then_place_in_recep-Tomato-None-Microwave-13/trial_T20190910_173916_331859/game.tw-pddl",
+    "json_2.1.1/valid_seen/pick_cool_then_place_in_recep-Tomato-None-Microwave-18/trial_T20190909_012524_159092/game.tw-pddl",
+    "json_2.1.1/valid_seen/pick_cool_then_place_in_recep-WineBottle-None-DiningTable-17/trial_T20190908_024426_412044/game.tw-pddl",
+    "json_2.1.1/valid_seen/pick_heat_then_place_in_recep-Apple-None-DiningTable-26/trial_T20190907_060234_011675/game.tw-pddl",
+    "json_2.1.1/valid_seen/pick_heat_then_place_in_recep-Cup-None-Cabinet-22/trial_T20190907_173251_960848/game.tw-pddl",
+    "json_2.1.1/valid_seen/pick_heat_then_place_in_recep-Egg-None-CounterTop-2/trial_T20190908_122951_021026/game.tw-pddl",
+    "json_2.1.1/valid_seen/pick_heat_then_place_in_recep-Egg-None-Fridge-14/trial_T20190909_091314_636733/game.tw-pddl",
+    "json_2.1.1/valid_seen/pick_heat_then_place_in_recep-Mug-None-SideTable-21/trial_T20190909_090729_088825/game.tw-pddl",
+    "json_2.1.1/valid_seen/pick_heat_then_place_in_recep-Plate-None-DiningTable-28/trial_T20190908_001247_096796/game.tw-pddl",
+    "json_2.1.1/valid_seen/pick_heat_then_place_in_recep-Potato-None-Fridge-12/trial_T20190908_014451_271080/game.tw-pddl",
+    "json_2.1.1/valid_seen/pick_heat_then_place_in_recep-Tomato-None-Fridge-23/trial_T20190909_082320_103350/game.tw-pddl",
+    "json_2.1.1/valid_seen/pick_two_obj_and_place-Book-None-Desk-302/trial_T20190906_181233_363875/game.tw-pddl",
+    "json_2.1.1/valid_seen/pick_two_obj_and_place-Knife-None-Drawer-18/trial_T20190907_065232_689984/game.tw-pddl",
+    "json_2.1.1/valid_seen/pick_two_obj_and_place-Spatula-None-Drawer-13/trial_T20190908_183331_203888/game.tw-pddl",
+    "json_2.1.1/valid_seen/pick_two_obj_and_place-TissueBox-None-Toilet-426/trial_T20190909_044602_338962/game.tw-pddl",
+    "json_2.1.1/valid_seen/pick_two_obj_and_place-Vase-None-Desk-204/trial_T20190906_181531_703961/game.tw-pddl",
+    "json_2.1.1/valid_unseen/look_at_obj_in_light-AlarmClock-None-DeskLamp-308/trial_T20190908_222917_366542/game.tw-pddl",
+    "json_2.1.1/valid_unseen/look_at_obj_in_light-AlarmClock-None-DeskLamp-308/trial_T20190908_222933_607649/game.tw-pddl",
+    "json_2.1.1/valid_unseen/look_at_obj_in_light-AlarmClock-None-DeskLamp-308/trial_T20190908_222951_616606/game.tw-pddl",
+    "json_2.1.1/valid_unseen/look_at_obj_in_light-Book-None-DeskLamp-308/trial_T20190908_020029_636862/game.tw-pddl",
+    "json_2.1.1/valid_unseen/look_at_obj_in_light-Book-None-DeskLamp-308/trial_T20190908_020048_814402/game.tw-pddl",
+    "json_2.1.1/valid_unseen/look_at_obj_in_light-Book-None-DeskLamp-308/trial_T20190908_144951_587345/game.tw-pddl",
+    "json_2.1.1/valid_unseen/look_at_obj_in_light-Bowl-None-DeskLamp-308/trial_T20190907_133919_856963/game.tw-pddl",
+    "json_2.1.1/valid_unseen/look_at_obj_in_light-Bowl-None-DeskLamp-308/trial_T20190907_133935_066606/game.tw-pddl",
+    "json_2.1.1/valid_unseen/look_at_obj_in_light-Bowl-None-DeskLamp-308/trial_T20190907_133953_562557/game.tw-pddl",
+    "json_2.1.1/valid_unseen/look_at_obj_in_light-CD-None-DeskLamp-308/trial_T20190908_141942_810052/game.tw-pddl",
+    "json_2.1.1/valid_unseen/look_at_obj_in_light-CD-None-DeskLamp-308/trial_T20190908_141958_463362/game.tw-pddl",
+    "json_2.1.1/valid_unseen/look_at_obj_in_light-CD-None-DeskLamp-308/trial_T20190908_142046_281296/game.tw-pddl",
+    "json_2.1.1/valid_unseen/look_at_obj_in_light-Mug-None-DeskLamp-308/trial_T20190908_161733_213242/game.tw-pddl",
+    "json_2.1.1/valid_unseen/look_at_obj_in_light-Mug-None-DeskLamp-308/trial_T20190908_201421_021646/game.tw-pddl",
+    "json_2.1.1/valid_unseen/look_at_obj_in_light-Mug-None-DeskLamp-308/trial_T20190908_201444_037645/game.tw-pddl",
+    "json_2.1.1/valid_unseen/look_at_obj_in_light-Pencil-None-DeskLamp-308/trial_T20190908_220545_153480/game.tw-pddl",
+    "json_2.1.1/valid_unseen/look_at_obj_in_light-Pencil-None-DeskLamp-308/trial_T20190908_220604_010430/game.tw-pddl",
+    "json_2.1.1/valid_unseen/look_at_obj_in_light-Pencil-None-DeskLamp-308/trial_T20190908_220656_510400/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_and_place_simple-Mug-None-Desk-308/trial_T20190908_125200_737896/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_and_place_simple-Mug-None-Desk-308/trial_T20190909_203041_433487/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_and_place_simple-Mug-None-Desk-308/trial_T20190909_210238_431966/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_and_place_simple-Pencil-None-Shelf-308/trial_T20190908_121952_610012/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_and_place_simple-Pencil-None-Shelf-308/trial_T20190908_122024_052056/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_and_place_simple-Pencil-None-Shelf-308/trial_T20190908_122154_042763/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_and_place_simple-PepperShaker-None-Drawer-10/trial_T20190906_184021_215264/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_and_place_simple-PepperShaker-None-Drawer-10/trial_T20190918_154326_823501/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_and_place_simple-PepperShaker-None-Drawer-10/trial_T20190918_154424_844749/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_and_place_simple-SaltShaker-None-Cabinet-10/trial_T20190906_191429_743650/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_and_place_simple-SaltShaker-None-Cabinet-10/trial_T20190906_191445_723170/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_and_place_simple-SaltShaker-None-Cabinet-10/trial_T20190906_191501_563086/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_and_place_simple-SaltShaker-None-Drawer-10/trial_T20190909_021613_077537/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_and_place_simple-SaltShaker-None-Drawer-10/trial_T20190909_021650_880235/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_and_place_simple-SaltShaker-None-Drawer-10/trial_T20190909_021728_339782/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_and_place_simple-SoapBottle-None-Toilet-424/trial_T20190907_004321_405868/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_and_place_simple-SoapBottle-None-Toilet-424/trial_T20190907_004351_281384/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_and_place_simple-SoapBottle-None-Toilet-424/trial_T20190907_004404_604165/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_and_place_simple-Vase-None-Safe-219/trial_T20190908_205204_244321/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_and_place_simple-Vase-None-Safe-219/trial_T20190908_205221_748352/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_and_place_simple-Vase-None-Safe-219/trial_T20190908_205246_776817/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_and_place_simple-Watch-None-Safe-219/trial_T20190907_074524_006355/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_and_place_simple-Watch-None-Safe-219/trial_T20190907_074556_124850/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_and_place_simple-Watch-None-Safe-219/trial_T20190907_074643_810052/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Bowl-None-Cabinet-10/trial_T20190909_061130_844814/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Bowl-None-Cabinet-10/trial_T20190909_061158_110530/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Bowl-None-Cabinet-10/trial_T20190909_061232_368489/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Cloth-None-Cabinet-424/trial_T20190908_022321_380927/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Cloth-None-Cabinet-424/trial_T20190908_022436_073995/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Cloth-None-CounterTop-424/trial_T20190908_100632_546757/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Cloth-None-CounterTop-424/trial_T20190908_114340_674467/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Egg-None-Microwave-10/trial_T20190909_120554_888709/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Egg-None-Microwave-10/trial_T20190909_120632_691361/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Egg-None-Microwave-10/trial_T20190909_120712_273910/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Knife-None-CounterTop-10/trial_T20190909_110347_624008/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Knife-None-CounterTop-10/trial_T20190909_110445_675754/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Knife-None-CounterTop-10/trial_T20190909_110531_148235/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Mug-None-CoffeeMachine-10/trial_T20190907_221208_560499/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Mug-None-CoffeeMachine-10/trial_T20190907_221300_362511/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Mug-None-CoffeeMachine-10/trial_T20190907_221355_558505/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Pan-None-CounterTop-10/trial_T20190908_032434_013084/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Pan-None-CounterTop-10/trial_T20190908_032518_891433/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Pan-None-CounterTop-10/trial_T20190908_032543_712058/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Plate-None-CounterTop-10/trial_T20190908_213356_017769/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Plate-None-CounterTop-10/trial_T20190908_213420_728917/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Plate-None-CounterTop-10/trial_T20190908_213533_897289/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-SoapBar-None-Cabinet-424/trial_T20190908_214926_337906/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-SoapBar-None-Cabinet-424/trial_T20190908_214946_567644/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-SoapBar-None-Cabinet-424/trial_T20190908_215019_162873/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-SoapBar-None-CounterTop-424/trial_T20190907_074045_109439/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-SoapBar-None-CounterTop-424/trial_T20190907_074106_050405/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-SoapBar-None-CounterTop-424/trial_T20190907_074124_966890/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Spatula-None-Drawer-10/trial_T20190907_080730_211959/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Spatula-None-Drawer-10/trial_T20190907_080800_275989/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Spatula-None-Drawer-10/trial_T20190907_080825_222432/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Bread-None-CounterTop-10/trial_T20190908_091747_866951/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Bread-None-CounterTop-10/trial_T20190908_091811_414150/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Bread-None-CounterTop-10/trial_T20190908_091835_825830/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Lettuce-None-CounterTop-10/trial_T20190909_123133_763972/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Lettuce-None-CounterTop-10/trial_T20190909_174807_646433/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Lettuce-None-CounterTop-10/trial_T20190909_174840_771703/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Mug-None-Cabinet-10/trial_T20190909_121559_082363/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Mug-None-Cabinet-10/trial_T20190909_121635_622676/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Mug-None-Cabinet-10/trial_T20190909_121710_650938/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Mug-None-CoffeeMachine-10/trial_T20190907_183715_299073/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Mug-None-CoffeeMachine-10/trial_T20190907_183807_477267/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Mug-None-CoffeeMachine-10/trial_T20190907_183853_958104/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Pan-None-CounterTop-10/trial_T20190908_114545_244903/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Pan-None-CounterTop-10/trial_T20190908_114622_738670/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Pan-None-CounterTop-10/trial_T20190908_114656_768805/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Potato-None-Microwave-10/trial_T20190907_033157_424297/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Potato-None-Microwave-10/trial_T20190907_033228_194678/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Potato-None-Microwave-10/trial_T20190907_033306_962974/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Tomato-None-Microwave-10/trial_T20190909_102608_318800/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Tomato-None-Microwave-10/trial_T20190909_102644_926781/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Tomato-None-Microwave-10/trial_T20190909_102710_795182/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Apple-None-Fridge-10/trial_T20190906_182259_116320/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Apple-None-Fridge-10/trial_T20190906_182353_418140/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Apple-None-Fridge-10/trial_T20190906_182435_622538/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Apple-None-GarbageCan-10/trial_T20190908_145050_918567/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Apple-None-GarbageCan-10/trial_T20190908_145143_820541/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Apple-None-GarbageCan-10/trial_T20190908_145356_918528/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Cup-None-Cabinet-10/trial_T20190907_083346_800823/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Cup-None-Cabinet-10/trial_T20190907_083429_887065/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Cup-None-Cabinet-10/trial_T20190907_083507_594820/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Egg-None-GarbageCan-10/trial_T20190908_113432_673307/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Egg-None-GarbageCan-10/trial_T20190908_113523_123938/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Egg-None-GarbageCan-10/trial_T20190908_113610_425142/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Mug-None-Cabinet-10/trial_T20190909_021100_341887/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Mug-None-Cabinet-10/trial_T20190909_021200_669381/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Mug-None-Cabinet-10/trial_T20190909_021247_306737/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Mug-None-CoffeeMachine-10/trial_T20190907_171806_406231/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Mug-None-CoffeeMachine-10/trial_T20190907_171850_960211/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Mug-None-CoffeeMachine-10/trial_T20190907_171933_349922/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Potato-None-GarbageCan-10/trial_T20190907_161745_664033/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Potato-None-GarbageCan-10/trial_T20190907_161853_945788/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10/trial_T20190908_225046_020282/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10/trial_T20190908_225359_617900/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10/trial_T20190908_225453_272533/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_two_obj_and_place-CD-None-Safe-308/trial_T20190907_050942_897916/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_two_obj_and_place-CD-None-Safe-308/trial_T20190907_051013_060265/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_two_obj_and_place-CD-None-Safe-308/trial_T20190907_051056_585414/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_two_obj_and_place-KeyChain-None-Safe-219/trial_T20190909_012027_782483/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_two_obj_and_place-PepperShaker-None-Drawer-10/trial_T20190908_010306_215435/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_two_obj_and_place-PepperShaker-None-Drawer-10/trial_T20190912_221016_460197/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_two_obj_and_place-PepperShaker-None-Drawer-10/trial_T20190912_221141_608117/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_two_obj_and_place-Pillow-None-Sofa-219/trial_T20190907_163240_345855/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_two_obj_and_place-Pillow-None-Sofa-219/trial_T20190907_163327_486300/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_two_obj_and_place-Pillow-None-Sofa-219/trial_T20190907_163408_914117/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_two_obj_and_place-SoapBar-None-Cabinet-424/trial_T20190909_081720_491733/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_two_obj_and_place-SoapBar-None-Cabinet-424/trial_T20190909_081746_857594/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_two_obj_and_place-SoapBar-None-GarbageCan-424/trial_T20190909_064053_839817/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_two_obj_and_place-SoapBar-None-GarbageCan-424/trial_T20190909_064221_368939/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_two_obj_and_place-SoapBar-None-GarbageCan-424/trial_T20190909_064309_357168/game.tw-pddl",
+    "json_2.1.1/valid_unseen/pick_two_obj_and_place-ToiletPaper-None-Cabinet-424/trial_T20190906_202926_527010/game.tw-pddl"
+  ],
+  "evidence_files": [
+    {
+      "path": "01_skilllineage/experiments/runs/interactive_mistral_7b_final/episodes.jsonl",
+      "sha256": "7f586861258ea10f5406a02e5ff60a98f0e9f84d803b9355bd9fe49dd8eebf30",
+      "target_ids_found": 78
+    },
+    {
+      "path": "01_skilllineage/experiments/runs/interactive_phi4_mini_final/episodes.jsonl",
+      "sha256": "04f1ddffad3abe32045643d859aefb1aa2e338e13f22222e8bccb12fba6c9b7e",
+      "target_ids_found": 78
+    },
+    {
+      "path": "01_skilllineage/experiments/runs/interactive_qwen3_4b/episodes.jsonl",
+      "sha256": "b46e65fff638d8feb66d4090a7fcfe54103c47663329178f5c4064c9bd71e148",
+      "target_ids_found": 4
+    },
+    {
+      "path": "01_skilllineage/experiments/runs/interactive_qwen3_4b_devtuning_rangefix_20260904/episodes.jsonl",
+      "sha256": "228f95d4389c9b12c818ed9b8624bd2ed589d6777fb480a47747d773d665f004",
+      "target_ids_found": 12
+    },
+    {
+      "path": "01_skilllineage/experiments/runs/interactive_qwen3_4b_final/episodes.jsonl",
+      "sha256": "aa43fcbba8fbf11188dfd44cabae05c9655bfd3f48a9d238a41fa3ce5909af01",
+      "target_ids_found": 78
+    },
+    {
+      "path": "01_skilllineage/revisions/02_evidence_gated_repair/results/qwen_compiled_screen/episodes.jsonl",
+      "sha256": "c2ca3f982b0197b30bdbdc54226925f3ac2118784cee98d864b4a66d53b3a660",
+      "target_ids_found": 6
+    },
+    {
+      "path": "01_skilllineage/revisions/02_evidence_gated_repair/results/qwen_compiled_screen/run_spec.json",
+      "sha256": "111703f3428fe83667adf4cd541061682593c3df91be67cfc8d429b1eb882f45",
+      "target_ids_found": 6
+    },
+    {
+      "path": "01_skilllineage/revisions/02_evidence_gated_repair/results/qwen_development_pilot/episodes.jsonl",
+      "sha256": "dc7a3d7058a0cd35e260e1e2fc5a0ec1dd6cafdbeaa63b7c8b4ddb18a101bcf4",
+      "target_ids_found": 2
+    },
+    {
+      "path": "01_skilllineage/revisions/02_evidence_gated_repair/results/qwen_development_pilot/run_spec.json",
+      "sha256": "e0c9fea475d36920e5cf0a20bfa2dff30d8bf196fc1d36294daefa72a0f019dc",
+      "target_ids_found": 2
+    },
+    {
+      "path": "01_skilllineage/revisions/02_evidence_gated_repair/results/qwen_guarded_pilot/episodes.jsonl",
+      "sha256": "55eed2f0b52875b0e74cf969255afffed1662f508162920977db1d41537ff168",
+      "target_ids_found": 2
+    },
+    {
+      "path": "01_skilllineage/revisions/02_evidence_gated_repair/results/qwen_guarded_pilot/run_spec.json",
+      "sha256": "3cec4ee83ede5439fe6ecb421d899820f55ff2dc85e750bb7b6cda47d380243d",
+      "target_ids_found": 2
+    },
+    {
+      "path": "01_skilllineage/revisions/03_grounded_executor/diagnostics/stage02_opportunities.json",
+      "sha256": "527e4776386b116fe3832dac433e3283c033c707cc2956a1006fbe044814a2cc",
+      "target_ids_found": 6
+    },
+    {
+      "path": "01_skilllineage/revisions/03_grounded_executor/results/qwen_grounded_screen/episodes.jsonl",
+      "sha256": "bae070ffe250ea6e0f10b94b09757c5246cf43da8760e03b23bc8b54f1d8a050",
+      "target_ids_found": 6
+    },
+    {
+      "path": "01_skilllineage/revisions/03_grounded_executor/results/qwen_grounded_screen/run_spec.json",
+      "sha256": "2b98bfa386ddd1093eef11bb3fd252ae288356da5c4fdf6f8159fef2cefb223d",
+      "target_ids_found": 6
+    },
+    {
+      "path": "01_skilllineage/revisions/05_state_matched_probes/results/checkpoint_replay_audit.json",
+      "sha256": "d05bb63eea6653afb4515c2a0524ee4c7a99b4faac9297f760d3cd839a3e68d7",
+      "target_ids_found": 1
+    },
+    {
+      "path": "01_skilllineage/revisions/05_state_matched_probes/results/qwen_action_probes/probes.jsonl",
+      "sha256": "15294f2b29ec87fa8e37706eab398e506fd8d5ec3c0b85875b626f227ce40262",
+      "target_ids_found": 1
+    },
+    {
+      "path": "01_skilllineage/revisions/07_executor_search/results/qwen_action_preflight/decisions.jsonl",
+      "sha256": "a6f8f6dafe026f196e4353201b16fa366fd22537495ed09ba966d8edf2d19aea",
+      "target_ids_found": 6
+    },
+    {
+      "path": "01_skilllineage/revisions/07_executor_search/results/qwen_action_preflight/run_spec.json",
+      "sha256": "5e86497cd3050d84bac727b4e62f52dc9d8728e278c56299c6cbad162d180482",
+      "target_ids_found": 6
+    },
+    {
+      "path": "01_skilllineage/revisions/08_closed_loop_executor/results/qwen_controller_screen/episodes.jsonl",
+      "sha256": "58a38ce8546a189ed584453c276ee8394d2c69f5bc2475e4e6d7de36acdbb918",
+      "target_ids_found": 6
+    },
+    {
+      "path": "01_skilllineage/revisions/08_closed_loop_executor/results/qwen_controller_screen/run_spec.json",
+      "sha256": "4141d9175bda1d819565757e64fb0e95f9868925050558d5157cc05e84ecf39e",
+      "target_ids_found": 6
+    },
+    {
+      "path": "01_skilllineage/revisions/08b_duplicate_command_compatibility/results/qwen_controller_screen/episodes.jsonl",
+      "sha256": "f024e50253504843409c45477646a9f5d0240d9def2f75314ff203078d13ae4d",
+      "target_ids_found": 6
+    },
+    {
+      "path": "01_skilllineage/revisions/08b_duplicate_command_compatibility/results/qwen_controller_screen/run_spec.json",
+      "sha256": "afcb2c10d3366e24cfdb7277e10a2f392d9fd6505b3c029f59263225c9b1ce9a",
+      "target_ids_found": 6
+    },
+    {
+      "path": "01_skilllineage/revisions/09_conditional_skill_repair/results/qwen_repair_screen/analysis.json",
+      "sha256": "4dbd3e858a8d1b18abbd001e795657cbca933e3766e14e6a4302680618f10e4d",
+      "target_ids_found": 5
+    },
+    {
+      "path": "01_skilllineage/revisions/09_conditional_skill_repair/results/qwen_repair_screen/completion.json",
+      "sha256": "913ea7d19922381f901249ce7b3feb104ccc71c30af724bec81102cf2e2611f6",
+      "target_ids_found": 5
+    },
+    {
+      "path": "01_skilllineage/revisions/09_conditional_skill_repair/results/qwen_repair_screen/episodes.jsonl",
+      "sha256": "bb802b77fa7cc27a3919d851b40fee20be65505fe5fb7d6b00f8bd62a8b51464",
+      "target_ids_found": 6
+    },
+    {
+      "path": "01_skilllineage/revisions/09_conditional_skill_repair/results/qwen_repair_screen/run_spec.json",
+      "sha256": "5919b08c6653871039d38732e37055f1c5afd588b4eb2a317abe78fffd4d89dd",
+      "target_ids_found": 6
+    },
+    {
+      "path": "01_skilllineage/revisions/10_runtime_interventions/results/qwen_runtime_screen/analysis.json",
+      "sha256": "cbd668140309a0469dbc91bbb143f0a3db1c9b74d3cfba3c18312f5d05e79729",
+      "target_ids_found": 5
+    },
+    {
+      "path": "01_skilllineage/revisions/10_runtime_interventions/results/qwen_runtime_screen/completion.json",
+      "sha256": "e7866e4b87d88b027ec455a7042a657e8dd0422d007ff14add6aa4bb807442e7",
+      "target_ids_found": 5
+    },
+    {
+      "path": "01_skilllineage/revisions/10_runtime_interventions/results/qwen_runtime_screen/episodes.jsonl",
+      "sha256": "2263fd7ccbb38a213bd71edca0f2228fcb99469568950ca9263ad697228785d1",
+      "target_ids_found": 6
+    },
+    {
+      "path": "01_skilllineage/revisions/10_runtime_interventions/results/qwen_runtime_screen/run_spec.json",
+      "sha256": "3ff3d5c10d56c798a1bde7f39519bf2a0752c6b497957a500ca0fdf001ac7f3b",
+      "target_ids_found": 6
+    },
+    {
+      "path": "01_skilllineage/revisions/10_runtime_interventions/results/qwen_runtime_screen/step_events.jsonl",
+      "sha256": "8516d2f5ed880b87259dd53a55902520f984533167ea2be801f6ff4a8b3d6c86",
+      "target_ids_found": 6
+    },
+    {
+      "path": "01_skilllineage/revisions/12_binding_generalization/results/qwen_binding_expanded/analysis.json",
+      "sha256": "4ed9440f16fcdc2259e096afd9199e2c5949cff0500506fb4f4c47b4abb165e1",
+      "target_ids_found": 14
+    },
+    {
+      "path": "01_skilllineage/revisions/12_binding_generalization/results/qwen_binding_expanded/arms/factual/episodes.jsonl",
+      "sha256": "aa854778c2bfc67cff86177293532512f3cc7f79ec9329eb6ded7d03402cd009",
+      "target_ids_found": 30
+    },
+    {
+      "path": "01_skilllineage/revisions/12_binding_generalization/results/qwen_binding_expanded/arms/factual/step_events.jsonl",
+      "sha256": "ed92f7b4cc018168c7c4c0b676b443cfde85d2a92d08af1524af3a3736bdef48",
+      "target_ids_found": 30
+    },
+    {
+      "path": "01_skilllineage/revisions/12_binding_generalization/results/qwen_binding_expanded/arms/factual_operand_guard/episodes.jsonl",
+      "sha256": "20826f7ae358f81eef297cb3f0565a56928556e2977f833edfb62c106e3b854b",
+      "target_ids_found": 30
+    },
+    {
+      "path": "01_skilllineage/revisions/12_binding_generalization/results/qwen_binding_expanded/arms/factual_operand_guard/step_events.jsonl",
+      "sha256": "f4affe90bd3aa6d9f398e9ecda3a3158b2f298b276ef518da1792d13c0c1172c",
+      "target_ids_found": 30
+    },
+    {
+      "path": "01_skilllineage/revisions/12_binding_generalization/results/qwen_binding_expanded/arms/generic_replan/episodes.jsonl",
+      "sha256": "2a59344b2a00093bc60cdca4a23f5c1ad2b565b931422276071c082fbf103b5e",
+      "target_ids_found": 30
+    },
+    {
+      "path": "01_skilllineage/revisions/12_binding_generalization/results/qwen_binding_expanded/arms/generic_replan/step_events.jsonl",
+      "sha256": "69aa3758b7f26ab6f345c2f696ce61596ab8cf37d3f5676a63e0514234fe40d3",
+      "target_ids_found": 30
+    },
+    {
+      "path": "01_skilllineage/revisions/12_binding_generalization/results/qwen_binding_expanded/arms/no_skill/episodes.jsonl",
+      "sha256": "7d2b1d591233b9e4a154890c486b687f068b7ad510b9b66e3120f468b0d9020c",
+      "target_ids_found": 30
+    },
+    {
+      "path": "01_skilllineage/revisions/12_binding_generalization/results/qwen_binding_expanded/arms/no_skill/step_events.jsonl",
+      "sha256": "95e9ea3cfc17a47d9304b6a59f06cc597172408c5f5f597b402b393e04cb17c0",
+      "target_ids_found": 30
+    },
+    {
+      "path": "01_skilllineage/revisions/12_binding_generalization/results/qwen_binding_expanded/arms/no_skill_operand_guard/episodes.jsonl",
+      "sha256": "af7a2f920ecbbe2ed542ee05f6a3d44bb5c033c714f0846ac9705d441127515a",
+      "target_ids_found": 30
+    },
+    {
+      "path": "01_skilllineage/revisions/12_binding_generalization/results/qwen_binding_expanded/arms/no_skill_operand_guard/step_events.jsonl",
+      "sha256": "8bcdc3e990f98ff3fb5692d38e53ac33a903721b9fbd1c925cff6a7fddf9ccdf",
+      "target_ids_found": 30
+    },
+    {
+      "path": "01_skilllineage/revisions/12_binding_generalization/results/qwen_binding_expanded/completion.json",
+      "sha256": "7053079602916b4a859f0d7d783a815266ab87a9958941e17981d44cf9730824",
+      "target_ids_found": 14
+    },
+    {
+      "path": "01_skilllineage/revisions/12_binding_generalization/results/qwen_binding_expanded/run_spec.json",
+      "sha256": "93414d282c94d30684ad336126ec05dda46dbcf192291a6a07920d35ce4d6c9c",
+      "target_ids_found": 30
+    },
+    {
+      "path": "01_skilllineage/revisions/20_crossenv_shadow_testing/results/exposed_alf_mutations/outcomes.jsonl",
+      "sha256": "c51c4f9b3a43ca9c84d10e4b7d0712ab4522f3b6933d23e1754ad4ebb9240d4b",
+      "target_ids_found": 27
+    },
+    {
+      "path": "01_skilllineage/revisions/20_crossenv_shadow_testing/results/exposed_alf_mutations/run_spec.json",
+      "sha256": "e0382693670122d2dec4c3afcbb0686267a38b245906e8a8faab308adbd3f7a6",
+      "target_ids_found": 30
+    },
+    {
+      "path": "01_skilllineage/revisions/20_crossenv_shadow_testing/results/exposed_alf_oracles/run_spec.json",
+      "sha256": "1b10da75aee7462bea1ef084b2430389a172d572b56a1fc858322603e11ecaf2",
+      "target_ids_found": 30
+    },
+    {
+      "path": "01_skilllineage/revisions/20_crossenv_shadow_testing/results/exposed_alf_oracles/trajectories.jsonl",
+      "sha256": "153909e642ba047679a317e1bb3ab1bb9c9172561448d07afed2217e10f17a36",
+      "target_ids_found": 30
+    },
+    {
+      "path": "01_skilllineage/revisions/20_crossenv_shadow_testing/results/selection_analysis/run_spec.json",
+      "sha256": "db38cfcbf0a1634fcdbd266585b5b6709cc2b3fd96664a81e599a24ab5fc306c",
+      "target_ids_found": 27
+    },
+    {
+      "path": "01_skilllineage/revisions/22_predicate_impact_testing/results/native_mutations/outcomes.jsonl",
+      "sha256": "3775989396999975e1abc49543409aa05020c7acc3c3843509a6d462f50ccb2b",
+      "target_ids_found": 22
+    },
+    {
+      "path": "01_skilllineage/revisions/22_predicate_impact_testing/results/native_mutations/run_spec.json",
+      "sha256": "165628c8a044f9deeb1554f4f34020aaa222102d37e867a3c329893bc6d1978a",
+      "target_ids_found": 30
+    },
+    {
+      "path": "01_skilllineage/revisions/22_predicate_impact_testing/results/selection_analysis/run_spec.json",
+      "sha256": "f4128095dbe035af605df5b3bb744de60fde4f283dd9f2ffb72156982781e8da",
+      "target_ids_found": 27
+    },
+    {
+      "path": "01_skilllineage/revisions/23_reserved_confirmation/reserved_roster.json",
+      "sha256": "52f7ece988408143edd6dc9d872f47fcdf8f18ea68616e968a02eec12af9fb18",
+      "target_ids_found": 48
+    },
+    {
+      "path": "01_skilllineage/revisions/23_reserved_confirmation/results/native_mutations/outcomes.jsonl",
+      "sha256": "3e45c65e2730a3283f15ed05b1e9fb0bba5add5c8294589f72334423537bb26b",
+      "target_ids_found": 37
+    },
+    {
+      "path": "01_skilllineage/revisions/23_reserved_confirmation/results/native_mutations/run_spec.json",
+      "sha256": "7c547791083ffed15e12e1ba15919c058f39619e852e1f44b50844ac9fccf3e4",
+      "target_ids_found": 48
+    },
+    {
+      "path": "01_skilllineage/revisions/23_reserved_confirmation/results/reserved_oracles/run_spec.json",
+      "sha256": "ac04be56e4ffbfe7732541107ffa1614cf5c31cae3e0e83b05dedeb4c314ba77",
+      "target_ids_found": 48
+    },
+    {
+      "path": "01_skilllineage/revisions/23_reserved_confirmation/results/reserved_oracles/trajectories.jsonl",
+      "sha256": "6581a6244fe6fb9c410922f3eef239774e6f2dcf0aaf0188e0aa5420e22c9cb4",
+      "target_ids_found": 48
+    },
+    {
+      "path": "01_skilllineage/revisions/23_reserved_confirmation/results/selection_analysis/run_spec.json",
+      "sha256": "f61a2451c3ab479e918931b6700e2b2775e22083897230d9dd9ff8cd81473b2e",
+      "target_ids_found": 43
+    },
+    {
+      "path": "01_skilllineage/revisions/24_operator_transfer_confirmation/reserved_roster.json",
+      "sha256": "ae920ebc29f9d657e14525434efc8f9b394015d58762c02be6bf19923fa23f91",
+      "target_ids_found": 32
+    },
+    {
+      "path": "01_skilllineage/revisions/24_operator_transfer_confirmation/results/native_mutations/outcomes.jsonl",
+      "sha256": "6ef2aa349e7c4894896f6e97a8d31ddf8a5ed0864eeffb82caa6a4056a858df1",
+      "target_ids_found": 31
+    },
+    {
+      "path": "01_skilllineage/revisions/24_operator_transfer_confirmation/results/native_mutations/run_spec.json",
+      "sha256": "69da6761170ad1f0fc4efda06fbc15527eac984b0b33ae8cef36b5236bda3a19",
+      "target_ids_found": 32
+    },
+    {
+      "path": "01_skilllineage/revisions/24_operator_transfer_confirmation/results/reserved_oracles/run_spec.json",
+      "sha256": "a89827feadd4780859d49e8fc64b5a89372bffa928366de067acf1c0ec43e0c3",
+      "target_ids_found": 32
+    },
+    {
+      "path": "01_skilllineage/revisions/24_operator_transfer_confirmation/results/reserved_oracles/trajectories.jsonl",
+      "sha256": "2be8b5f6fea6cb57384aca7f795c5628eef1dc5038eb69287a0155fac82e89c5",
+      "target_ids_found": 32
+    },
+    {
+      "path": "01_skilllineage/revisions/24_operator_transfer_confirmation/results/selection_analysis/run_spec.json",
+      "sha256": "d935a981670ae889f7efc43046330da6036c140c631d93f01b662aaacae0fc6e",
+      "target_ids_found": 32
+    },
+    {
+      "path": "04_state_guarded_repair/results/confirmation/final/decisions.jsonl",
+      "sha256": "a4079a9d0605723da39e0baa9b6e626343b104b92ab7035f4075626c239d2613",
+      "target_ids_found": 21
+    },
+    {
+      "path": "05_witnessed_contracts/results/confirmation/final/predictions_with_private_labels.jsonl",
+      "sha256": "bfcc5061d688190b174067b941fcb2ac739c8e9c75181c3a1051afe8639c74ca",
+      "target_ids_found": 30
+    },
+    {
+      "path": "05_witnessed_contracts/results/development/v1/predictions.jsonl",
+      "sha256": "d5f837e4494a76051abd74f7a33e8e2ddd07a1713ea5c1a2d6779e7e80144f2c",
+      "target_ids_found": 21
+    },
+    {
+      "path": "05_witnessed_contracts/results/development/v2/predictions.jsonl",
+      "sha256": "d944a16e2087ebf0b22babd1ffde076253b448df00a4261c369966af6a92b8ce",
+      "target_ids_found": 21
+    },
+    {
+      "path": "06_rely_guarantee_diagnosis/results/confirmation/final/labeled_records.jsonl",
+      "sha256": "c8800cb041333a37280bda8dbfed72fb047eabf32b3bba924dd40db717235ad3",
+      "target_ids_found": 45
+    },
+    {
+      "path": "06_rely_guarantee_diagnosis/results/development/native_analysis/labeled_records.jsonl",
+      "sha256": "72bf35b450f93585667c0f3babf41f2d1f736b3bfd27868d8a099a151df1f77e",
+      "target_ids_found": 30
+    },
+    {
+      "path": "07_counterfactual_transfer_tests/results/development/expanded/episodes.jsonl",
+      "sha256": "845bc8ce1b590c9ca791a18e300805e574963ee61ff8160b5f56a505d2191234",
+      "target_ids_found": 30
+    },
+    {
+      "path": "07_counterfactual_transfer_tests/results/development/expanded/pairs.json",
+      "sha256": "0c663ad06e5a3e9235380345b091d015fdc669a59e2eb1e4084f7e516bec9dfc",
+      "target_ids_found": 30
+    },
+    {
+      "path": "07_counterfactual_transfer_tests/results/development/expanded/runtime_pairs.json",
+      "sha256": "20005f83a5539b120542bfc73a4f580345921a8207c71ff85a08bc47389202b2",
+      "target_ids_found": 30
+    },
+    {
+      "path": "07_counterfactual_transfer_tests/results/development/expanded_pre_device_search_fix/episodes.jsonl",
+      "sha256": "103b873de7cc476ddfc58cbc723fb82e8a66275f6925b9b9b60f2909d6227666",
+      "target_ids_found": 23
+    },
+    {
+      "path": "07_counterfactual_transfer_tests/results/development/expanded_pre_device_search_fix/pairs.json",
+      "sha256": "959d4b5b14643b80199c839189447a93e8cf8b7a503a5db8e6ff571a8cba9ab6",
+      "target_ids_found": 30
+    },
+    {
+      "path": "07_counterfactual_transfer_tests/results/development/expanded_pre_efficiency_fix/episodes.jsonl",
+      "sha256": "2b8576db9935ee7d32446f80f6d3946d7fa575fbb6337dd99e4c8703949ebcf0",
+      "target_ids_found": 5
+    },
+    {
+      "path": "07_counterfactual_transfer_tests/results/development/expanded_pre_efficiency_fix/pairs.json",
+      "sha256": "959d4b5b14643b80199c839189447a93e8cf8b7a503a5db8e6ff571a8cba9ab6",
+      "target_ids_found": 30
+    },
+    {
+      "path": "07_counterfactual_transfer_tests/results/development/pilot1/episodes.jsonl",
+      "sha256": "e24606d52e5657aa3e0ea78dfc55b67a07298b216100cdeead605197958e1b4d",
+      "target_ids_found": 6
+    },
+    {
+      "path": "07_counterfactual_transfer_tests/results/development/pilot1/pairs.json",
+      "sha256": "52376417b8ff4a0658a4574a25d886d3962d6689e96da6410d2d020d3b15fd84",
+      "target_ids_found": 6
+    },
+    {
+      "path": "07_counterfactual_transfer_tests/results/development/pilot2/episodes.jsonl",
+      "sha256": "d7859d257487495fd6b4dfd8387c62be82609552f48f926fa0ae802d2cadad57",
+      "target_ids_found": 6
+    },
+    {
+      "path": "07_counterfactual_transfer_tests/results/development/pilot2/pairs.json",
+      "sha256": "6a3edbc9e6c07719f43a2b16bbb80acc9c9518b262750e0029c5d7609121e298",
+      "target_ids_found": 6
+    },
+    {
+      "path": "07_counterfactual_transfer_tests/results/development/pilot3/episodes.jsonl",
+      "sha256": "75f7134690dbac3159c3a55178015a85cbfed877446b37c252d407c64bf8c2fb",
+      "target_ids_found": 6
+    },
+    {
+      "path": "07_counterfactual_transfer_tests/results/development/pilot3/pairs.json",
+      "sha256": "6c2db859936a40dd0b32abad94b6822e89075c67fabd28d63b717c27de53da0f",
+      "target_ids_found": 6
+    }
+  ]
+}

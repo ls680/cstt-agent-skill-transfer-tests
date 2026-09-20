@@ -1,0 +1,57 @@
+{
+  "development_gate": "results/development/expanded/development_gate.json",
+  "inventory": "../01_skilllineage/research/validation/inventory_20260905.json",
+  "evidence_roots": [
+    "../01_skilllineage/results",
+    "../01_skilllineage/experiments/runs",
+    "../01_skilllineage/revisions",
+    "../02_skillchange/results",
+    "../03_risk_limited_release/results",
+    "../04_state_guarded_repair/results",
+    "../05_witnessed_contracts/results",
+    "../06_rely_guarantee_diagnosis/results",
+    "results/development"
+  ],
+  "eligible_splits": ["valid_seen", "valid_unseen"],
+  "families": [
+    "pick_and_place_simple",
+    "pick_clean_then_place_in_recep",
+    "pick_heat_then_place_in_recep",
+    "pick_cool_then_place_in_recep",
+    "look_at_obj_in_light",
+    "pick_two_obj_and_place"
+  ],
+  "family_quotas": {
+    "pick_and_place_simple": 9,
+    "pick_clean_then_place_in_recep": 8,
+    "pick_heat_then_place_in_recep": 8,
+    "pick_cool_then_place_in_recep": 8,
+    "look_at_obj_in_light": 8,
+    "pick_two_obj_and_place": 19
+  },
+  "allocation_note": "Use 60 of the 61 targets remaining after conservative prior-evidence exclusion; retain all scarce-family targets and select 19 of 20 two-object targets by the frozen salted-hash rule.",
+  "selection_salt": "cstt-confirmation-20260907-v1",
+  "method_files": [
+    "pyproject.toml",
+    "src/cstt/__init__.py",
+    "src/cstt/pairs.py",
+    "src/cstt/executor.py",
+    "scripts/build_development_inputs.py",
+    "scripts/run_structured_transfer.py",
+    "scripts/audit_run.py",
+    "scripts/freeze_confirmation.py",
+    "scripts/audit_confirmation_inputs.py",
+    "scripts/verify_frozen_method.py",
+    "scripts/run_confirmation.sh",
+    "scripts/analyze_confirmation.py",
+    "research/PROTOCOL.md",
+    "configs/confirmation_inputs.json",
+    "configs/confirmation_qwen3_4b.json",
+    "configs/confirmation_phi4_mini.json",
+    "configs/confirmation_mistral7b.json",
+    "configs/confirmation_analysis.json",
+    "../01_skilllineage/src/skilllineage/interactive.py",
+    "../01_skilllineage/src/skilllineage/interactive_envs.py"
+  ],
+  "output_dir": "data/confirmation"
+}
