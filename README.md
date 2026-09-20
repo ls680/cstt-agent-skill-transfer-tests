@@ -41,5 +41,5 @@ Journal submission and release preparation:
 - JAAMAS manuscript: `paper/autonomous_agents_and_multi_agent_systems/main.pdf`
 - JAAMAS submission package: `submission/autonomous_agents_and_multi_agent_systems/`
 - Public repository: https://github.com/ls680/cstt-agent-skill-transfer-tests
-- Versioned archive: https://doi.org/10.5281/zenodo.22852635
+- Versioned archive: https://doi.org/10.5281/zenodo.22852634
 - Release license: Apache-2.0

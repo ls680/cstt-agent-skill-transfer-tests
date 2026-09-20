@@ -43,8 +43,8 @@ Liang Song, Business School, Xi'an International University, Xi'an, Shaanxi
 
 - Public GitHub repository: https://github.com/ls680/cstt-agent-skill-transfer-tests
 - Repository license: Apache-2.0
-- Release version: 0.1.0
-- Zenodo DOI: https://doi.org/10.5281/zenodo.22852635
+- Release version: 0.1.2
+- Zenodo DOI: https://doi.org/10.5281/zenodo.22852634
 - Public artifact: `artifacts/cstt_reproducibility_bundle.tar.gz`
 
 ## Submission independence

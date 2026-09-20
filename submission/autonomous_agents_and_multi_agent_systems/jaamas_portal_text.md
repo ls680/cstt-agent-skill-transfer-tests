@@ -67,7 +67,7 @@ editing the manuscript. Both authors read and approved the final manuscript.
 ## Data availability
 
 The data and code supporting the findings are openly available in Zenodo at
-https://doi.org/10.5281/zenodo.22852635 and in the public GitHub repository at
+https://doi.org/10.5281/zenodo.22852634 and in the public GitHub repository at
 https://github.com/ls680/cstt-agent-skill-transfer-tests. Third-party ALFWorld
 assets and model weights are not redistributed; pinned upstream revisions,
 task identifiers, paths, licenses, and integrity checks are provided instead.

@@ -25,7 +25,7 @@
 
 - [x] Create `https://github.com/ls680/cstt-agent-skill-transfer-tests`
 - [x] Add the repository-specific SSH deploy key
-- [x] Push the verified `v0.1.0` release
+- [x] Push the verified `v0.1.2` release
 - [x] Create and publish the Zenodo archive
 - [x] Insert the permanent DOI and live GitHub URL in manuscript and portal text
 - [x] Cite the Zenodo record in the manuscript reference list
