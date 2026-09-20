@@ -75,15 +75,3 @@ task identifiers, paths, licenses, and integrity checks are provided instead.
 ## Acknowledgements
 
 Leave blank in the portal.
-
-## Related manuscript disclosure
-
-A related manuscript by the same authors, entitled "From Traces to Witnessed
-Contracts: Incremental Precondition-Effect Compilation for LLM Agent Skills,"
-is currently under consideration at Automated Software Engineering. That
-manuscript studies pre-execution detection of defective skill revisions. The
-present submission instead studies causal attribution of skill-transfer
-benefits through a six-condition counterfactual protocol. The two studies use
-disjoint confirmation targets and different methods, estimands, experiments,
-figures, tables, endpoints, and results. A copy is supplied for editorial
-assessment.

@@ -47,10 +47,10 @@ Liang Song, Business School, Xi'an International University, Xi'an, Shaanxi
 - Zenodo DOI: https://doi.org/10.5281/zenodo.22852635
 - Public artifact: `artifacts/cstt_reproducibility_bundle.tar.gz`
 
-## Related manuscript
+## Submission independence
 
-The related Paper 05 manuscript is under consideration at *Automated Software
-Engineering*. It addresses pre-execution regression screening, whereas this
-submission addresses causal attribution of transfer benefit. Confirmation task
-identifiers have zero overlap. The related PDF is included in this submission
-directory for upload as an editor-only related file.
+This package contains no manuscript or attachment from another submission and
+no overlapping data, results, figures, tables, or text. The confirmation roster
+was frozen after excluding prior evidence; the identifier-level exclusion audit
+is retained in `data/confirmation/excluded_prior_targets.json` and is not a
+submission attachment.

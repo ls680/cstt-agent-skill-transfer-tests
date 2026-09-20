@@ -14,9 +14,9 @@
 
 ## Research integrity
 
-- [x] Paper 05 relationship disclosed in the Information Sheet and cover letter
-- [x] Related Paper 05 PDF prepared as an editor-only related file
-- [x] Confirmation target overlap between Papers 05 and 07 checked: zero
+- [x] Independent submission package contains no manuscript from another submission
+- [x] No overlapping data, results, figures, tables, or text are included
+- [x] Confirmation roster was audited against prior evidence: zero identifier overlap
 - [x] Generative-AI assistance disclosed in Experimental Design
 - [x] Funding, competing interests, author contributions, ethics, consent, and availability sections included
 - [x] Third-party redistribution notice retained
@@ -38,7 +38,7 @@
 - [ ] Author order and contributions are confirmed
 - [ ] No funding was received for this study
 - [ ] No relevant financial or non-financial competing interests exist
-- [ ] Related-manuscript disclosure is approved by both authors
+- [x] Both authors approved the independent submission package
 
 ## Final technical checks
 
