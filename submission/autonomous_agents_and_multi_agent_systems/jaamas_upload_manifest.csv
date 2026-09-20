@@ -1,8 +1,8 @@
 portal_designation,file,required,status,notes
-Manuscript PDF,submission/autonomous_agents_and_multi_agent_systems/jaamas_main_manuscript.pdf,yes,draft,"Journal-formatted PDF; rebuild after DOI insertion"
-LaTeX source,submission/autonomous_agents_and_multi_agent_systems/jaamas_main_manuscript_latex.zip,yes,draft,"Flat self-contained source ZIP; rebuild after DOI insertion"
+Manuscript PDF,submission/autonomous_agents_and_multi_agent_systems/jaamas_main_manuscript.pdf,yes,prepared,"Journal-formatted PDF with final repository and DOI statements"
+LaTeX source,submission/autonomous_agents_and_multi_agent_systems/jaamas_main_manuscript_latex.zip,yes,prepared,"Flat self-contained source ZIP; clean-room compilation verified"
 Information Sheet,submission/autonomous_agents_and_multi_agent_systems/jaamas_information_sheet.pdf,yes,prepared,"Mandatory one- to two-page JAAMAS information sheet"
 Cover letter,submission/autonomous_agents_and_multi_agent_systems/jaamas_cover_letter.pdf,recommended,prepared,"Includes scope fit and related-manuscript disclosure"
 Related file,submission/autonomous_agents_and_multi_agent_systems/related_manuscript_05_for_editorial_assessment.pdf,recommended,prepared,"Editor-only copy of related Paper 05 manuscript under consideration"
 Separate figure,none,no,not_needed,"Fig1.pdf is embedded and included in the LaTeX source ZIP"
-Supplementary material,none,no,public_repository,"Reproducibility artifact will be archived on GitHub and Zenodo"
+Supplementary material,none,no,public_repository,"Reproducibility artifact is archived on GitHub and Zenodo"

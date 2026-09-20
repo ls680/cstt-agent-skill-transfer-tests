@@ -4,6 +4,7 @@ title: "Counterfactual Skill Transfer Tests"
 type: software
 version: 0.1.0
 date-released: 2026-09-20
+doi: "10.5281/zenodo.22852635"
 authors:
   - family-names: "Liang"
     given-names: "Song"
@@ -15,6 +16,8 @@ authors:
     email: "zhaijiabao123@126.com"
     affiliation: "School of Management and Economics, North China University of Water Resources and Electric Power"
 repository-code: "https://github.com/ls680/cstt-agent-skill-transfer-tests"
+repository-artifact: "https://doi.org/10.5281/zenodo.22852635"
+url: "https://github.com/ls680/cstt-agent-skill-transfer-tests"
 license: "Apache-2.0"
 keywords:
   - "LLM agents"

@@ -3,6 +3,9 @@
 The release supports exact CPU-only verification of released records and a
 full native replication on one RTX 3090.
 
+- Source repository: https://github.com/ls680/cstt-agent-skill-transfer-tests
+- Versioned archive: https://doi.org/10.5281/zenodo.22852635
+
 ## 1. Verify released records
 
 ```bash

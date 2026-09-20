@@ -20,8 +20,8 @@
 - [x] Select JAAMAS and apply the current Springer Nature template
 - [x] Confirm current scope, data, figure, and AI-disclosure rules
 - [x] Select Apache-2.0 for the public repository
-- [ ] Create a public archival DOI or anonymous review repository
-- [ ] Recheck third-party redistribution terms at release time
+- [x] Create a public archival DOI or anonymous review repository
+- [x] Recheck third-party redistribution terms at release time
 - [x] Add funding, conflicts, author contributions, and data statements to the journal-specific version
 - [ ] Complete an author-led technical and language review
 

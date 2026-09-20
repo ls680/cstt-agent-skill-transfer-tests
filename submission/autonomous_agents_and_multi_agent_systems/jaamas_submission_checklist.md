@@ -23,13 +23,13 @@
 
 ## Repository and archive
 
-- [ ] Create `https://github.com/ls680/cstt-agent-skill-transfer-tests`
-- [ ] Add the repository-specific SSH deploy key
-- [ ] Push the verified `v0.1.0` release
-- [ ] Create and publish the Zenodo archive
-- [ ] Insert the permanent DOI and live GitHub URL in manuscript and portal text
-- [ ] Cite the Zenodo record in the manuscript reference list
-- [ ] Rebuild the manuscript, source ZIP, and reproducibility bundle
+- [x] Create `https://github.com/ls680/cstt-agent-skill-transfer-tests`
+- [x] Add the repository-specific SSH deploy key
+- [x] Push the verified `v0.1.0` release
+- [x] Create and publish the Zenodo archive
+- [x] Insert the permanent DOI and live GitHub URL in manuscript and portal text
+- [x] Cite the Zenodo record in the manuscript reference list
+- [x] Rebuild the manuscript, source ZIP, and reproducibility bundle
 
 ## Author confirmation before submission
 
@@ -42,7 +42,7 @@
 
 ## Final technical checks
 
-- [ ] Unit and release verification pass after repository metadata is added
+- [x] Unit and release verification pass after repository metadata is added
 - [x] Clean-room LaTeX source ZIP compiles
 - [x] Manuscript PDF visually inspected page by page
 - [x] Information Sheet is no more than two pages

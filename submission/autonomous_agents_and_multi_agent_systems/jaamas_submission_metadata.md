@@ -41,10 +41,10 @@ Liang Song, Business School, Xi'an International University, Xi'an, Shaanxi
 
 ## Repository plan
 
-- Proposed GitHub repository: https://github.com/ls680/cstt-agent-skill-transfer-tests
+- Public GitHub repository: https://github.com/ls680/cstt-agent-skill-transfer-tests
 - Repository license: Apache-2.0
 - Release version: 0.1.0
-- Zenodo DOI: pending archive creation
+- Zenodo DOI: https://doi.org/10.5281/zenodo.22852635
 - Public artifact: `artifacts/cstt_reproducibility_bundle.tar.gz`
 
 ## Related manuscript
